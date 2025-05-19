@@ -1,0 +1,76 @@
+.header{
+    background-image: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 55vh;
+    height : 80vh;
+    width : 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position : relative;
+    overflow: hidden;
+    padding : 2vh 0;
+    @media screen and (min-width: 768px) {
+        background-position: center left;
+        background-size: 80vh;
+        height : 90vh;
+        align-items: center;
+    }
+}
+
+.typing {
+    animation: typing 3s steps(40,end) forwards, blink 0.7s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3em;
+    color: var(--white-pure);
+    width: 0;
+    @media screen and (min-width: 768px) {
+        font-size: 8em;
+    }
+}
+
+.title {
+    width: fit-content;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: left;
+        margin-left: 20vw;
+    }
+}
+
+.sub {
+    width: 0;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40, end) forwards, blink 0.7s step-end infinite;
+    animation-delay: 3s;
+
+}
+
+.subTitle {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40,end) forwards, blink 0.7s step-end infinite;
+    font-size: 0.5em;
+    color: var(--yellow-school-bus);
+    display: block;
+    width: 0;
+    animation-delay:  6s;
+
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%}
+
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
