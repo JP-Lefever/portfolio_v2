@@ -1,8 +1,8 @@
-import { titleFont, paragraphFont, paragraphFont2} from "@/ui/fonts";
+import { titleFont, paragraphFont, paragraphFont2} from "@/components/ui/fonts";
 
 import "./globals.css";
 import React from "react";
-import NavBar from "@/ui/layout/navigation/NavBar";
+import NavBar from "@/components/layout/navigation/navBar/NavBar";
 
 
 export default function RootLayout({
