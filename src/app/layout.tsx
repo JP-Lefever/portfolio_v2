@@ -13,8 +13,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${paragraphFont.className} ${paragraphFont2.variable} ${titleFont.variable}`}>
-      <NavBar/>
+        <NavBar/>
+        <main>
         {children}
+        </main>
       </body>
     </html>
   );

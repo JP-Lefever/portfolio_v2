@@ -8,8 +8,6 @@ import { Languages } from 'lucide-react'
 
 
 
-
-
 export default function Navbar() {
 
     const data = dataNav.navbar
