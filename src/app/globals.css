@@ -6,11 +6,13 @@
 }
 body{
   overflow-x: hidden;
+  background-color: var(--blue-coin);
 }
 
 :root{
   --black-dark : #000000;
   --black-night :#0C0C0C;
+  --black-nuance:#1B1B1BFF;
   --grey-metal : #2C3138;
   --grey-davy : #535A64;
   --white-platinium : #DDE2E4;
@@ -18,4 +20,10 @@ body{
   --green-tea : #dcffba;
   --yellow-school-bus : #FFDD00;
   --yellow-maize : #FFE747;
+  --blue-coin : #181E29;
+  --blue-nuance : #212A3B;
+  --padding : 1.5vh 2vw;
+  --large-radius : 20px;
+  --margin-top : 2vh;
+  --letter-spacing : 0.2em;
 }
