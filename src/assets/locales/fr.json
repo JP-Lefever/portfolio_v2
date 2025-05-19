@@ -1,0 +1,20 @@
+{
+  "navbar": [
+    {
+      "id": 1,
+      "name": "Réalisations",
+      "link": "/project"
+    },
+    {
+      "id": 2,
+      "name": "A propos",
+      "link": "/about"
+    },
+    {
+      "id": 3,
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ]
+}
+
