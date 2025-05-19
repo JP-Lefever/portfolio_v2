@@ -1,4 +1,5 @@
 import styles from "./header.module.css"
+import dataHead from "@/assets/locales/fr.json"
 
 export default function Header() {
 
@@ -6,7 +7,7 @@ export default function Header() {
 <header className={styles.header}>
 
     <section className = {styles.title}>
-        <h1 className={styles.typing}>DEVELOPPEUR <span className={styles.sub}>FULL STACK</span> <span className={styles.subTitle}>junior...</span></h1>
+        <h1 className={styles.typing}>{dataHead.header.title} <span className={styles.sub}>{dataHead.header.subTitle}</span> <span className={styles.subTitle}>{dataHead.header.exp}</span></h1>
     </section>
 </header>
 
