@@ -24,6 +24,9 @@ body{
   --blue-nuance : #212A3B;
   --padding : 1.5vh 2vw;
   --large-radius : 30px;
+  --small-radius : 10px;
   --margin-top : 2vh;
   --letter-spacing : 0.2em;
+  --title-responsive : 3em;
+  --title-size : 4em;
 }

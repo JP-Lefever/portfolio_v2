@@ -55,10 +55,10 @@
     {
       "id": 7,
       "label" : "Postgres",
-      "image" : "/images/tech/postgre.webp"
+      "image" : "/images/tech/postgre.png"
     },
     {
-      "id": 9,
+      "id": 8,
       "label" : "Figma",
       "image" : "/images/tech/figma.png"
     }

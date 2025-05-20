@@ -14,8 +14,8 @@ export default function Technology() {
          <section className = {styles.sectionTech}>
         {data.map((tech)=>(
             <article className={styles.articleTech} key={tech.id}>
-                <h2 className={styles.label}>{tech.label}</h2>
                 <Image className={styles.image} src={tech.image} alt={tech.label} width={1024} height={860} />
+                <h2 className={styles.label}>{tech.label}</h2>
             </article>
 
         ))}

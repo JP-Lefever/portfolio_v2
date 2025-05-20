@@ -1,57 +1,58 @@
 .tech {
-    min-height: 80vh;
+    margin: 4em auto ;
+    @media screen and (min-width: 768px) {
     width: 80vw;
-    display: flex;
-    flex-direction: column;
 
-    margin :var(--margin-top) auto ;
+    }
 }
 
 .sectionTech {
-    width: 80vw;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border : 1px solid var(--grey-davy);
-
+    width : 90vw;
+    margin : auto;
+    border: 1px solid var(--grey-davy);
+    @media screen and (min-width: 768px) {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid var(--grey-davy);
+    }
 }
 
 .articleTech{
-
-    border : 1px solid var(--grey-davy);
-    padding : 5vh;
-    text-align: center;
-    background: linear-gradient(to bottom, var(--white-platinium) 0%, var(--white-platinium) 100%)no-repeat;
-    background-size: 100% 100%;
-    border-radius : 10px;
+    border: 1px solid var(--grey-davy);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    border-radius: var(--small-radius);
+    background-color: var(--white-platinium);
+    gap:1em;
     letter-spacing: 0.1em;
-    transition: background-size 0.5s ease-in-out ;
-}
-
-.articleTech:hover{
-    background-size: 100% 0 ;
 
 }
-.articleTech:hover .label{
-    opacity: 0;
-}
-
 
 .h2{
+    font-size: var(--title-responsive);
     text-align: center;
-    font-size: 4em;
     color: var(--white-pure);
     letter-spacing: 0.1em;
-    margin: var(--margin-top) 0;
-    margin-bottom: 10vh;
+
+    margin-bottom: 5vh;
+    @media screen and (min-width: 768px){
+    font-size: var(--title-size);
+
+    }
 }
 
-
+.label{
+    font-weight: lighter;
+}
 
 .image{
-    width : 5vw;
+    width : 20vw;
     height : auto;
-    display: none;
-}
-.articleTech:hover .image{
-    display: block;
+    @media screen and (min-width: 768px) {
+        width: 3vw;
+        height: auto;
+    }
 }
