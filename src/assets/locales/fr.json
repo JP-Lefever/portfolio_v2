@@ -62,6 +62,96 @@
       "label" : "Figma",
       "image" : "/images/tech/figma.png"
     }
+  ],
+  "project" : [
+    {
+      "id" : 1,
+      "name" : "Compagnie L'Enclos",
+      "image" : "/images/project/enclos_v2.png",
+      "type" : "projet pro",
+      "status" : "en cours",
+      "synopsis" : "Site vitrine pour compagnie de théatre professionnelle"
+    },
+    {
+      "id" : 2,
+      "name" : "Glamping",
+      "image" : "/images/project/glamping.png",
+      "type" : "projet pro",
+      "status" : "en cours",
+      "synopsis" : "Site vitrine pour hottellerie de plein air"
+    },
+    {
+      "id" : 3,
+      "name" : "Geocode",
+      "image" : "/images/project/geocode.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Plateforme de géolocalisation de borne de recharge electriques"
+    },
+    {
+      "id" : 4,
+      "name" : "Carotaine",
+      "image" : "/images/project/carotaine.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Hackathon de 24h sur le thème apocalypse et bienveillance"
+    },
+    {
+      "id" : 5,
+      "name" : "Boarder line",
+      "image" : "/images/project/border_line.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Plateforme pour passionné jeux société"
+    },
+    {
+      "id" : 6,
+      "name" : "E-shop",
+      "image" : "/images/project/eShop.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Site e-commerce"
+    },
+    {
+      "id" : 7,
+      "name" : "Portfolio v1",
+      "image" : "/images/project/eShop.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Premier portfolio réalisé"
+    },
+    {
+      "id" : 8,
+      "name" : "All Star Games",
+      "image" : "/images/project/all_game.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Plateforme de vente de jeux de société"
+    },
+    {
+      "id" : 9,
+      "name" : "ToDo list",
+      "image" : "/images/project/todo.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "ToDo list réalisée en JS DOM"
+    },
+    {
+      "id" : 10,
+      "name" : "Un peu meilleur chaque jour",
+      "image" : "/images/project/meilleur.png",
+      "type" : "projet formation",
+      "status" : "terminé",
+      "synopsis" : "Site economie, finance, developpement personnel"
+    },
+    {
+      "id" : 11,
+      "name" : "L'enclos v1",
+      "image" : "/images/project/enclos_v1.png",
+      "type" : "projet pre-formation",
+      "status" : "terminé",
+      "synopsis" : "1er site effectué pour la compagnie L'Enclos"
+    }
   ]
 }
 
