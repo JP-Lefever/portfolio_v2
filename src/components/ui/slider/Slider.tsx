@@ -2,7 +2,7 @@
 import {Swiper, SwiperSlide } from "swiper/react";
 import {Autoplay} from "swiper/modules"
 import "swiper/css"
-import CardProject from "@/features/cardProject/CardProject";
+import CardCarousel from "@/features/cardCarousel/CardCarousel";
 import dataProject from "@/assets/locales/fr.json";
 import styles from "./slider.module.css"
 
@@ -31,7 +31,7 @@ export const SliderProject = ()=>{
         >
 
             {data.map((d)=>(
-              <SwiperSlide className={styles.slide} key={d.id}> <CardProject  dataCard ={d}/></SwiperSlide>
+              <SwiperSlide className={styles.slide} key={d.id}> <CardCarousel dataCard ={d}/></SwiperSlide>
             ))}
 
         </Swiper>

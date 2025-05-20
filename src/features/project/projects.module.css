@@ -1,0 +1,25 @@
+.section {
+    width : 70vw;
+    margin:10vh auto;
+
+    padding: 2em;
+    background-color: var(--grey-davy);
+    border-radius: var(--large-radius);
+}
+
+.sectionProject {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+    justify-content: center;
+
+
+}
+
+.h2 {
+    text-align: left;
+    font-size: var(--title-size);
+    color : var(--white-platinium);
+    padding-bottom: 1em;
+    border-bottom: 2px solid var(--white-platinium);
+}

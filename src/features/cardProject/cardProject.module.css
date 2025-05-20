@@ -1,92 +1,29 @@
-.sectionCard {
+.sectionCard{
     position: relative;
 
+    width : fit-content;
 }
 
 .figure {
-    height: 70vh;
-    width: 90vw;
     position: relative;
-    @media screen and (min-width: 768px) {
-
-   height: 55vh;
-    width: 18vw;
-
-    }
-
+    width: 20vw;
+    height: 50vh;
 }
 
-.image{
+.image {
     object-fit: cover;
     border-radius: var(--large-radius);
-    filter : contrast(1.1) brightness(1.1) saturate(1.2) blur(-5px);
-    @media screen and (min-width: 768px) {
-
-    }
-}
-
-.articleDesc{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 71vh;
-    padding: 1vh 0;
-    @media screen and (min-width: 768px) {
-        height: 56vh;
-
-    }
 }
 
 .sectionLink{
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-    padding: 0 1vw;
+    width:20vw;
+    padding : 1vh 1vw;
     align-items: center;
-    @media screen and (min-width: 768px) {
-        width: 18vw;
-
-    }
-}
-
-.sectionInfo {
-    color: var(--yellow-school-bus);
-    padding: 4vh 2vw;
-    background-color: var(--black-dark);
-    border-bottom-left-radius: var(--large-radius);
-    border-bottom-right-radius: var(--large-radius);
-    min-height: 25vh;
-    position: relative;
-    @media screen and (min-width: 768px) {
-        padding: 4vh 0.5vw;
-
-    }
-
-}
-
-.articleDesc .sectionInfo{
-    opacity: 0;
-    transform: translateY(20vh);
-    transition: transform .4s ease-in-out, opacity 0.2s ease-in-out;
-
-}
-
-.articleDesc:hover .sectionInfo {
-    opacity: 0.8;
-    transform: translateY(0vh);
-
-}
-.h2 {
-    font-size: 2em;
-
-}
-.syno{
-    font-size: 1.2em;
-    font-weight: lighter;
 
 }
 
@@ -100,19 +37,19 @@
 
     }
 }
-.articleDesc .type {
+.sectionCard .type {
     opacity: 0;
     transform: translateY(-20px);
     transition: transform .3s ease-in-out;
 
 }
-.articleDesc:hover  .type{
+.sectionCard:hover  .type{
     opacity: 1;
     transform: translateY(0);
 
 }
 
-.articleDesc .arrow{
+.sectionCard .arrow{
     background-color: var(--black-night);
     border-radius: 50%;
     color: var(--white-platinium);
@@ -121,8 +58,24 @@
 
 }
 
-.articleDesc:hover .arrow{
+.sectionCard:hover .arrow{
     color: var(--yellow-school-bus);
     transform: rotate(-45deg);
 
+}
+
+.sectionInfo{
+    padding : 0.5em 1em;
+    color: var(--white-platinium);
+
+}
+.h2{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.syno{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    width: 18vw;
 }
