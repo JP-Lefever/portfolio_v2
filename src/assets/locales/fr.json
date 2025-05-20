@@ -15,6 +15,53 @@
       "name": "Contact",
       "link": "/contact"
     }
+  ],
+  "header" : {
+      "title" : "Developpeur web",
+      "subTitle" : "full stack",
+      "exp" : "junior..."
+  },
+  "technology" : [
+    {
+      "id": 1,
+      "label" : "React",
+      "image" : "/images/tech/react.png"
+    },
+    {
+      "id": 2,
+      "label" : "TypeScript",
+      "image" : "/images/tech/ts.png"
+    },
+    {
+      "id": 3,
+      "label" : "Next.js",
+      "image" : "/images/tech/next.png"
+    },
+    {
+      "id": 4,
+      "label" : "Node.js",
+      "image" : "/images/tech/node.png"
+    },
+    {
+      "id": 5,
+      "label" : "Express",
+      "image" : "/images/tech/expressjs.png"
+    },
+    {
+      "id": 6,
+      "label" : "MySQL",
+      "image" : "/images/tech/mysql.png"
+    },
+    {
+      "id": 7,
+      "label" : "Postgres",
+      "image" : "/images/tech/postgre.png"
+    },
+    {
+      "id": 8,
+      "label" : "Figma",
+      "image" : "/images/tech/figma.png"
+    }
   ]
 }
 
