@@ -39,22 +39,38 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         <p className={styles.projectInfo}>{d.ui}</p>
                         </section>
                     </article>
-                    <article>
-                        <h3>Admin</h3>
-                        <p>{d.admin}</p>
-                        <figure className={styles.figure}>
-                        <Image src={d.imageAdmin} alt={d.name} width={1080} height={860}/>
+                    <article className={styles.articleAdmin}>
+                        <h3 className={styles.h3}>Admin</h3>
+                        <section className={styles.sectionAdmin}>
+                            <div className={styles.div}>
+                        <p className={styles.projectInfo}>{d.admin}</p>
+                            </div>
+                            <div className={styles.div}>
+                        <figure className={styles.figureAdmin}>
+                        <Image className={styles.imageAdmin} src={d.imageAdmin} alt={d.name} fill={ true}/>
                         </figure >
-                        <figure className={styles.figure}>
-                        <Image src={d.imageAdmin1} alt={d.name} width={1080} height={860}/>
+                            </div>
+                            <div className={styles.div}>
+                        <figure className={styles.figureAdmin}>
+                        <Image className={styles.imageAdmin} src={d.imageAdmin1} alt={d.name} fill={ true}/>
                         </figure>
-                        <figure className={styles.figure}>
-                        <Image src={d.imageAdmin2} alt={d.name} width={1080} height={860}/>
+                            </div>
+                                <div className={styles.div}>
+                        <figure className={styles.figureAdmin}>
+                        <Image className={styles.imageAdmin} src={d.imageAdmin2} alt={d.name} fill={ true}/>
                         </figure>
+                                </div>
+                        </section>
                     </article>
-                    <article>
-                        <h3>Deploiement</h3>
-                        <p>{d.deployment}</p>
+                    <article className={styles.articleTech}>
+                        <h3 className={styles.h3}>Technologies utilisées</h3>
+                        <section className={styles.sectionTech}>
+                        {d.techno?.map((tech)=>(
+
+
+                        <p className={styles.projectTech}>{tech}</p>
+                        ))}
+                        </section>
 
                     </article>
                 </section>

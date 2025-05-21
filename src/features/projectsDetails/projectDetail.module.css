@@ -112,8 +112,65 @@
 
 .imageUi{
     object-fit: cover;
-
+    object-position: center top;
     border-radius: var(--large-radius);
-    border : solid 4px white;
+
 }
 
+.articleAdmin{
+    @media screen and (min-width: 768px) {
+       margin-bottom: 4em;
+    }
+}
+
+.sectionAdmin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+
+
+}
+
+.figureAdmin{
+    position: relative;
+    width: 25vw;
+    height: 30vh;
+
+
+
+}
+
+.imageAdmin{
+    object-fit: contain;
+
+}
+
+.sectionAdmin .div{
+    padding: 2em;
+    margin: auto;
+    border-radius: var(--large-radius);
+    background-color: var(--blue-nuance);
+}
+
+.sectionTech{
+    @media screen and (min-width: 768px) {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+       gap: 1em;
+        margin: 4em 0;
+
+    }
+}
+
+.projectTech{
+    @media screen and (min-width: 768px) {
+
+        border-radius: var(--large-radius);
+        background-color: var(--blue-nuance);
+        text-align: center;
+        padding: 1em;
+        color:var(--white-platinium);
+        font-size: 1.3em;
+        letter-spacing: 0.1em;
+    }
+}

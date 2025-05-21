@@ -76,11 +76,11 @@
       "imageProject" : "/images/project/enclos/project.png",
       "ui" : "Un wireframe a été réalisé pour présenter à la compagnie, l'organisation générale des pages et différentes informations, la compagnie m'a fournit son logo, les images a exploiter, ainsi que la charte graphique. Le css est géré avec les modules, et des animations ont été ajoutées avec Framer-motion et slick-carousel",
       "imageUi" : "/images/project/enclos/ui.png",
-      "admin" : "La base donnée est gérée avec Supabase et Posgres SQL. Le projet laisse encore de la place pour faire evoluer les possibilités a l'administrateur du site. Pour le moment nous nous sommes concentrées sur les données qui avait besoins d'être gérées de manière autonome dès le départ. L'interface admin se concentre donc pour le moment sur la gestion des dates de représentation afin de pouvoir ajouter/modifier ou supprimer celle-ci. J'ai également mis en place la gestion des messages envoyées depuis le formulaire de contact, l'admin a la possibilité de lire et classer ses messages. Le site pourrait évoluer avec la gestion de l'ajout de spectacles ou atelier d'immersion.",
+      "admin" : "La base donnée est gérée avec Supabase et Posgres SQL. Le projet laisse encore de la place pour faire evoluer les possibilités a l'administrateur du site. Pour le moment nous nous sommes concentrées sur les données qui avait besoins d'être gérées de manière autonome dès le départ. L'interface admin offre donc la possibilité de gérer des dates de représentation afin de pouvoir ajouter/modifier ou supprimer celles-ci. J'ai également mis en place la gestion des messages envoyées depuis le formulaire de contact, l'admin a la possibilité de lire et classer ses messages. Le site pourrait évoluer avec la gestion de l'ajout de spectacles ou atelier d'immersion.",
       "imageAdmin": "/images/project/enclos/admin1.png",
       "imageAdmin1": "/images/project/enclos/admin.png",
       "imageAdmin2": "/images/project/enclos/admin2.png",
-      "deployment" : "Le projet est déployé sur vercel, l'application est réalisée avec Next.js"
+      "techno" : ["Next.js", "TypeScript", "Module Css"," Supabase", "Postgres SQL", "Framer-motion", "slick-carousel", "Deploiement : Vercel "]
     },
     {
       "id" : 2,

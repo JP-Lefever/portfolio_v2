@@ -14,6 +14,6 @@ export type ProjectProps = {
     imageAdmin?: string;
     imageAdmin1?: string;
     imageAdmin2?: string;
-    deployment?: string;
+    techno?: string[];
 
 }
