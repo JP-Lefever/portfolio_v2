@@ -3,7 +3,7 @@ import { titleFont, paragraphFont, paragraphFont2} from "@/components/ui/fonts";
 import "./globals.css";
 import React from "react";
 import NavBar from "@/components/layout/navigation/navBar/NavBar";
-import {PageTransition} from "@/components/ui/animation/Animation";
+
 
 
 

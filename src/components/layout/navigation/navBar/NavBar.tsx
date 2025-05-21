@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link";
+
 import dataNav from "@/assets/locales/fr.json"
 import styles from "./navBar.module.css"
 import {BurgerMenu} from "@/components/ui/buttons/Buttons";
