@@ -1,13 +1,21 @@
 .sectionCard{
     position: relative;
-
     width : fit-content;
+    margin : auto;
+    min-height: 70vh;
+
 }
 
 .figure {
     position: relative;
-    width: 20vw;
-    height: 50vh;
+    width: 80vw;
+    height: 60vh;
+
+    @media screen and (min-width: 768px) {
+
+        width: 20vw;
+        height: 50vh;
+    }
 }
 
 .image {
@@ -21,16 +29,21 @@
     left: 0;
     display: flex;
     justify-content: space-between;
-    width:20vw;
+    width:79vw;
     padding : 1vh 1vw;
     align-items: center;
+    @media screen and (min-width: 768px) {
+
+    width:20vw;
+
+    }
 
 }
 
 .type {
     border-radius: var(--small-radius);
     background-color: var(--black-night);
-    padding: 0.2vh 1.2vw;
+    padding: 0.2vh 1vw;
     color: var(--white-platinium);
     @media screen and (min-width: 768px) {
         padding: 0.2vh 0.3vw;
@@ -67,15 +80,31 @@
 .sectionInfo{
     padding : 0.5em 1em;
     color: var(--white-platinium);
+    width: 80vw;
+    @media screen and (min-width: 768px) {
+    width: 19vw;
+    }
 
 }
 .h2{
     font-size: 2em;
     letter-spacing: 0.1em;
+    width: 78vw;
+    @media screen and (min-width: 768px) {
+
+    width: 20vw;
+    }
+
 }
 
 .syno{
     font-size: 1.5em;
     letter-spacing: 0.1em;
-    width: 18vw;
+    width: 80vw;
+    @media screen and (min-width: 768px) {
+
+        width: 20vw;
+
+    }
+
 }
