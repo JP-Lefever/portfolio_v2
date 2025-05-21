@@ -5,7 +5,7 @@ import styles from "./navBar.module.css"
 import {BurgerMenu} from "@/components/ui/buttons/Buttons";
 import {useState} from "react";
 import { Languages } from 'lucide-react'
-
+import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
 
 
 export default function Navbar() {
@@ -15,11 +15,12 @@ export default function Navbar() {
     const handleClickOpenMenu = ()=>{
         setIsOpenMenu(!isOpenMenu)
     }
+
     
     return <>
         <nav className={styles.nav}>
             <section className={styles.navItem}>
-                <Link  href={"/"} className={styles.logo}>LEFEVER<br/> Jean-Philippe</Link>
+                <TransitionLinks  href={"/"} className={styles.logo}>LEFEVER<br/> Jean-Philippe</TransitionLinks>
 
                 <article className={styles.burger}>
                     <BurgerMenu isOpenMenu={isOpenMenu} setIsOpenMenuAction = {handleClickOpenMenu}/>
@@ -30,7 +31,7 @@ export default function Navbar() {
                 <ul className={styles.ul}>
                             {data.map((d) => (
                                 <li key={d.id} className={styles.li}>
-                                    <Link className={styles.link} href={d.link}>{d.name}</Link>
+                                    <TransitionLinks className={styles.link} href={d.link}>{d.name}</TransitionLinks>
                                 </li>
                             ))}
                 </ul>
