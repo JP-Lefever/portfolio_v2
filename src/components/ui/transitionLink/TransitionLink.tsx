@@ -2,7 +2,7 @@
 import Link, {LinkProps} from "next/link";
 import React, {ReactNode} from "react";
 import {useRouter} from "next/navigation";
-import {PageTransition} from "@/components/ui/animation/Animation";
+
 
  interface TransitionLinkProps extends LinkProps {
     children: ReactNode;
