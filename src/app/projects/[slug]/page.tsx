@@ -1,5 +1,6 @@
 import dataProject from "@/assets/locales/fr.json"
 import ProjectDetails from "@/features/projectsDetails/ProjectDetails";
+import {PageTransition} from "@/components/ui/animation/Animation";
 
 
 export  default async function DetailProjectPage(props : {params: Promise<{ slug: string }>}){
@@ -10,6 +11,9 @@ export  default async function DetailProjectPage(props : {params: Promise<{ slug
     const data = dataProject.project
 
     return (<>
-  <ProjectDetails data = {data} slug={slug}/>
+        <PageTransition>
+
+        <ProjectDetails data = {data} slug={slug}/>
+        </PageTransition>
     </>)
 }

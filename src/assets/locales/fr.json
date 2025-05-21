@@ -80,16 +80,30 @@
       "imageAdmin": "/images/project/enclos/admin1.png",
       "imageAdmin1": "/images/project/enclos/admin.png",
       "imageAdmin2": "/images/project/enclos/admin2.png",
-      "techno" : ["Next.js", "TypeScript", "Module Css"," Supabase", "Postgres SQL", "Framer-motion", "slick-carousel", "Deploiement : Vercel "]
+      "techno" : ["Next.js", "TypeScript", "Module Css"," Supabase", "Postgres SQL", "Framer-motion", "slick-carousel", "Deploiement : Vercel "],
+      "web" : "https://lenclos.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/l-enclos"
     },
     {
       "id" : 2,
-      "name" : "Glamping",
+      "name" : "Glamping Spot",
       "slug" : "glamping",
       "image" : "/images/project/glamping.png",
       "type" : "projet pro",
       "status" : "en cours",
-      "synopsis" : "Site vitrine pour hottellerie de plein air"
+      "synopsis" : "Site vitrine pour hottellerie de plein air",
+      "project" : "Ce projet avait été réalisé en fin de formation avec React, j'ai repris ce projet pour ma 1ere réalisation avec Next.js. L'idée était de créer un site où j'avais le recul pour comprendre les attentes ou besoins client et potentiellement commercialiser le projet. Ce dernier reste superficiel mais donne une idée de ce que pourrait être le rendu final. ",
+      "imageProject" : "/images/project/glamping/project.png",
+      "ui" : "Comme pour chaque projet, je suis parti d'un wireframe pour me donner la direction. J'ai étudié ce qui se faisait dans les chaines de camping afin de préserver les repères/styles de site de vacances et ai dréssé ma charte graphique.",
+      "imageUi" : "/images/project/glamping/ui.png",
+      "admin" : "La base donnée est gérée avec Supabase et Posgres SQL. Dans le but de laisser une totale autonomie a l'admin, celui-ci peut : ajouter des infrastructures, des hébergements, emplacement et même ajouter un nouveau camping de A à Z",
+      "imageAdmin": "/images/project/glamping/admin1.png",
+      "imageAdmin1": "/images/project/glamping/admin.png",
+      "imageAdmin2": "/images/project/glamping/admin2.png",
+      "techno" : ["Next.js", "TypeScript", "Module Css","Supabase", "Postgres SQL", "Deploiement : Vercel "],
+      "web" : "https://glamping-gamma.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Glamping-spot"
+
     },
     {
       "id" : 3,
@@ -98,7 +112,18 @@
       "image" : "/images/project/geocode.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Plateforme de géolocalisation de borne de recharge electriques"
+      "synopsis" : "Plateforme de géolocalisation de borne de recharge electriques",
+      "project" : "Ce projet est le dernier projet de formation que j'ai réalisé avec 2 autres étudiants, projet que j'ai présenté lors de mon passage de titre de DWWM. Ce projet nous a été proposé par formateur, l'idée est de permettre a l'utilisateur de se geolocaliser, de repérer facilement les bornes autour de lui, et de pouvoir bloquer un créneau a la borne de recharge. L'appli offre également la possibilité de gérer le profil utilisateur, les véhicules... ",
+      "imageProject" : "/images/project/geocode/project.png",
+      "ui" : "Tout au long du projet, nous avons du faire valider les différentes étapes par notre formateur : réalisation du wireframe, réalisation du Figma, modelisation de la base de donnée, avant d'attaquer le code. Notre formateur nous a fourni le logo ainsi que la charte graphique a respecter",
+      "imageUi" : "/images/project/geocode/ui.png",
+      "admin" : "La base de donnée est gérée avec MySQL. L'aspect fondamental du projet était la gestion/upload d'un fichier CSV issu de donnée du gouvernement afin de pouvoir repérer toutes les stations/bornes. Coté admin nous offrons aussi la possibilité de gérer les profils utilisateurs, les véhicules, les messages.",
+      "imageAdmin": "/images/project/geocode/admin1.png",
+      "imageAdmin1": "/images/project/geocode/admin.png",
+      "imageAdmin2": "/images/project/geocode/admin2.png",
+      "techno" : ["React", "Vite", "TypeScript","Node.js", "Express"," MySQL", "React router", "Tailwind CSS", "Multer", "JWT", "Joi","Argon"],
+      "web" : "",
+      "git" : "https://github.com/WildCodeSchool-2024-09/JS-RemoteFR-Vert-CrewCodeIle-GeoCode-P3"
     },
     {
       "id" : 4,
@@ -107,7 +132,14 @@
       "image" : "/images/project/carotaine.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Hackathon de 24h sur le thème apocalypse et bienveillance"
+      "synopsis" : "Hackathon de 24h sur le thème apocalypse et bienveillance",
+      "project" : "Ce projet a été réalisé dans le cadre d'un hackathon de 24h lancé par la Wild Code School durant notre formation. Par groupe de 4 personnes inconnues, nous devions réaliser un site web autour du theme de la bienveillance et de l'apocalypse.",
+      "imageProject" : "/images/project/carotaine/project.png",
+      "ui" : "Nous avons démarré par un brainstorming d'idée sur ce que cela evoqué pour nous et quelle direction nous souhaitions prendre. Nous avons ensuite réalisé le wireframe afin de nous donner une direction commune avec un design simple mais clair, peu de fonctionnalités mais bien exécutées afin de pouvoir respecter les délais",
+      "imageUi" : "/images/project/carotaine/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Module CSS", "Slick Carousel", "Deploiement : Vercel"],
+      "web" : "https://carotaine.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Carotaine"
     },
     {
       "id" : 5,
@@ -116,7 +148,14 @@
       "image" : "/images/project/border_line.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Plateforme pour passionné jeux société"
+      "synopsis" : "Plateforme pour passionné jeux société",
+      "project" : "Ce projet a été réalisé dans le cadre de ma formation en groupe de 4 étudiants. Le thème était libre et déterminé par le groupe, la condition était d'utiliser une API externe ou de construire sa propre API. Dans notre cas, suite à plusieurs crash de l'API nous avons construit la notre. Ce projet a été réalisé après 2 mois de formations en 2 semaines.",
+      "imageProject" : "/images/project/boarder/project.png",
+      "ui" : "Pour lancer ce projet nous avons construit notre wireframe sur excalidraw afin de mettre nos visions en commun dans l'organisation et la structuration des pages avant de nous lancer dans la réalisation du Figma. Ce Figma nous permettra d'intégrer la charte graphique et de présenter un prototype interactif",
+      "imageUi" : "/images/project/boarder/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Module CSS", "Deploiement : Vercel"],
+      "web" : "https://border-line-client.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Border_Line"
     },
     {
       "id" : 6,
@@ -125,7 +164,14 @@
       "image" : "/images/project/eShop.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Site e-commerce avec système de filtre et page détaillée"
+      "synopsis" : "Site e-commerce avec système de filtre et page détaillée",
+      "project" : "Ce projet a été construit durant la formation. Exercice suivant l'apprentissage de l'utilisation d'API avec React et d'URL dynamique",
+      "imageProject" : "/images/project/eshop/project.png",
+      "ui" : "Le projet a été réalisé en Tailwind CSS, découverte de ce framework lors de ce projet, l'interface reste simple, l'objectif étant focalisé sur React",
+      "imageUi" : "/images/project/eshop/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Tailwind CSS","Deploiement : Vercel"],
+      "web" : "https://e-shop-client-eight.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/E_shop"
     },
     {
       "id" : 7,
@@ -134,7 +180,14 @@
       "image" : "/images/project/portfolio_v1.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Premier portfolio réalisé"
+      "synopsis" : "Premier portfolio réalisé",
+      "project" : "Voici le 1er portfolio que j'ai réalisé en début de formation, quelques semaines après le début de l'apprentissage de react. Ce projet, réalisé avec Vite, m'a permis de pouvoir rapidement communiquer sur l'avancement de ma formation.' ",
+      "imageProject" : "/images/project/portfolio/project.png",
+      "ui" : "Ce sont les nombreux portfolio que j'ai pu observer pour m'inspirer qui m'ont amené a ce visuel très modeste, avec les capacités du début. Des idées a droite, a gauche, combiné avec ma sensibilité personnelle",
+      "imageUi" : "/images/project/portfolio/ui.png",
+      "techno" : ["React", "Vite","TypeScript", "React router","Module CSS", "Framer-motion","Deploiement : Vercel"],
+      "web" : "https://portfolio-rho-azure-84.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Portfolio"
     },
     {
       "id" : 8,
@@ -143,7 +196,12 @@
       "image" : "/images/project/all_game.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Plateforme de vente de jeux de société"
+      "synopsis" : "Plateforme de vente de jeux de société",
+      "project" : "Le début de l'aventure React ! C'est l'exercice de fin de ma 1ere semaine d'utilisation React, deux ou 3 composants, des props, des states et la magie commence ",
+      "imageProject" : "/images/project/allStar/project.png",
+      "techno" : ["React", "Vite","TypeScript", "CSS", "Deploiement : Vercel"],
+      "web" : "https://game-challenge-omega.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/gameChallenge"
     },
     {
       "id" : 9,
@@ -152,7 +210,12 @@
       "image" : "/images/project/todo.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "ToDo list réalisée en JS DOM"
+      "synopsis" : "ToDo list réalisée en JS DOM",
+      "project" : "Tout 1er projet de groupe de la formation, réalisé en 1semaine en équipe de 3. Les début de Js et du JSDOM. Ce projet est entièrement réalisé en HTML, CSS et JSDOM. Projets choisis parmis 5 proposés, projet challengeant et interessant pour ce début de formation",
+      "imageProject" : "/images/project/todo/project.png",
+      "techno" : ["JS", "HTML", "CSS", "Déploiement : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/todo/",
+      "git" : "https://github.com/JP-Lefever/todo"
     },
     {
       "id" : 10,
@@ -161,7 +224,12 @@
       "image" : "/images/project/meilleur.png",
       "type" : "projet formation",
       "status" : "terminé",
-      "synopsis" : "Site economie, finance, developpement personnel"
+      "synopsis" : "Site economie, finance, developpement personnel",
+      "project" : "Le tout 1er site réalisé en 4h lors de ma 1ere semaine de formation à la Wild Code School, réalisé après une semaine d'apprentissage de HTML et CSS avec l'école. Les 1eres inspirations, le plaisir de voir tes 1eres lignes de code traduire quelque chose",
+      "imageProject" : "/images/project/meilleur/project.png",
+      "techno" : ["HTML", "CSS", "Déploiement : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/Meilleur-chaque-jour/",
+      "git" : "https://github.com/JP-Lefever/Meilleur-chaque-jour"
     },
     {
       "id" : 11,
@@ -170,7 +238,12 @@
       "image" : "/images/project/enclos_v1.png",
       "type" : "projet pre-formation",
       "status" : "terminé",
-      "synopsis" : "1er site effectué pour la compagnie L'Enclos"
+      "synopsis" : "1er site effectué pour la compagnie L'Enclos",
+      "project" : "Mes tous 1ers pas dans le monde du développement web. L'idée était de repoduire le site de la compagnie L'enclos, créé sur WordPress, en HTML et CSS",
+      "imageProject" : "/images/project/enclosV1/project.png",
+      "techno" : ["HTML", "CSS", "Déploiement : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/L-enclos_V1/l_histoire.html",
+      "git" : "https://github.com/JP-Lefever/L-enclos_V1"
     }
   ]
 }

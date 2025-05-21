@@ -2,6 +2,7 @@
     width : 90vw;
     margin: 10vh auto;
     padding: 1em;
+    position: relative;
     background-color: var(--grey-davy);
     border-radius: var(--large-radius);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -39,7 +40,6 @@
     @media screen and (min-width: 768px) {
         font-size: var(--title-size);
         color: var(--white-platinium);
-        padding-left: 1em;
         letter-spacing: var(--letter-spacing);
     }
 }
@@ -173,4 +173,18 @@
         font-size: 1.3em;
         letter-spacing: 0.1em;
     }
+}
+
+.link {
+    position: absolute;
+    right: 3vw;
+    top: 4vh;
+    z-index: 1;
+
+}
+
+.sectionLink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
