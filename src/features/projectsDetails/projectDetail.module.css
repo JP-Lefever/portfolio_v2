@@ -1,0 +1,119 @@
+.sectionProject {
+    width : 90vw;
+    margin: 10vh auto;
+    padding: 1em;
+    background-color: var(--grey-davy);
+    border-radius: var(--large-radius);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    @media screen and (min-width: 768px) {
+        width : 70vw;
+        padding: 2em;
+
+    }
+}
+
+.articleHead{
+    @media screen and (min-width: 768px) {
+
+    margin-bottom: 4em;
+    }
+}
+
+.figureHead {
+    @media screen and (min-width: 768px) {
+        position: relative;
+        width: 65vw;
+        height: 40vh;
+        margin: auto;
+    }
+}
+
+.imageHead{
+    @media screen and (min-width: 768px) {
+    object-fit: cover;
+    border-radius: var(--large-radius);
+}
+}
+
+.h2{
+    @media screen and (min-width: 768px) {
+        font-size: var(--title-size);
+        color: var(--white-platinium);
+        padding-left: 1em;
+        letter-spacing: var(--letter-spacing);
+    }
+}
+
+.articleProject{
+    @media screen and (min-width: 768px) {
+
+    display: flex;
+    justify-content: space-between;
+        margin-bottom: 4em;
+    }
+}
+
+.sectionInfo{
+    @media screen and (min-width: 768px) {
+
+        background-color: var(--blue-nuance);
+        padding: 2em;
+        border-radius: var(--large-radius);
+        text-align: center;
+        width: 48vw;
+    }
+
+}
+.figureProject{
+    position: relative;
+    width: 45vw;
+    height: 50vh;
+
+    margin-bottom: 1em;
+}
+
+.figureProject{
+    object-fit: cover;
+}
+
+
+.h3 {
+    @media screen and (min-width: 768px) {
+
+    font-size: 2em;
+    color: var(--white-platinium);
+    letter-spacing: 0.1em;
+    }
+}
+.projectInfo {
+    @media screen and (min-width: 768px) {
+
+
+        color: var(--white-platinium);
+        letter-spacing: 0.1em;
+    }
+}
+
+.articleUi{
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4em;
+    }
+}
+
+.figureUi{
+    position: relative;
+    width: 45vw;
+    height: 50vh;
+
+    margin-bottom: 1em;
+}
+
+.imageUi{
+    object-fit: cover;
+
+    border-radius: var(--large-radius);
+    border : solid 4px white;
+}
+

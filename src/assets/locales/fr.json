@@ -66,15 +66,26 @@
   "project" : [
     {
       "id" : 1,
-      "name" : "Compagnie L'Enclos",
+      "name" : "La Compagnie L'Enclos",
+      "slug" : "compagnie-l-enclos",
       "image" : "/images/project/enclos_v2.png",
       "type" : "projet pro",
       "status" : "en cours",
-      "synopsis" : "Site vitrine pour compagnie de théatre professionnelle"
+      "synopsis" : "Site vitrine pour compagnie de théatre professionnelle",
+      "project" : "La compagnie l'enclos est une compagnie de théâtre dont je suis le président. La compagnie L'Enclos disposait d'un site réalisé par leurs propres moyens avec WordPress. Le but était donc de reprendre les données existentes mais de donner un style nouveau, plus moderne et attractif.",
+      "imageProject" : "/images/project/enclos/project.png",
+      "ui" : "Un wireframe a été réalisé pour présenter à la compagnie, l'organisation générale des pages et différentes informations, la compagnie m'a fournit son logo, les images a exploiter, ainsi que la charte graphique. Le css est géré avec les modules, et des animations ont été ajoutées avec Framer-motion et slick-carousel",
+      "imageUi" : "/images/project/enclos/ui.png",
+      "admin" : "La base donnée est gérée avec Supabase et Posgres SQL. Le projet laisse encore de la place pour faire evoluer les possibilités a l'administrateur du site. Pour le moment nous nous sommes concentrées sur les données qui avait besoins d'être gérées de manière autonome dès le départ. L'interface admin se concentre donc pour le moment sur la gestion des dates de représentation afin de pouvoir ajouter/modifier ou supprimer celle-ci. J'ai également mis en place la gestion des messages envoyées depuis le formulaire de contact, l'admin a la possibilité de lire et classer ses messages. Le site pourrait évoluer avec la gestion de l'ajout de spectacles ou atelier d'immersion.",
+      "imageAdmin": "/images/project/enclos/admin1.png",
+      "imageAdmin1": "/images/project/enclos/admin.png",
+      "imageAdmin2": "/images/project/enclos/admin2.png",
+      "deployment" : "Le projet est déployé sur vercel, l'application est réalisée avec Next.js"
     },
     {
       "id" : 2,
       "name" : "Glamping",
+      "slug" : "glamping",
       "image" : "/images/project/glamping.png",
       "type" : "projet pro",
       "status" : "en cours",
@@ -83,6 +94,7 @@
     {
       "id" : 3,
       "name" : "Geocode",
+      "slug" : "geocode",
       "image" : "/images/project/geocode.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -91,6 +103,7 @@
     {
       "id" : 4,
       "name" : "Carotaine",
+      "slug" : "carotaine",
       "image" : "/images/project/carotaine.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -99,6 +112,7 @@
     {
       "id" : 5,
       "name" : "Boarder line",
+      "slug" : "boarder-line",
       "image" : "/images/project/border_line.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -107,6 +121,7 @@
     {
       "id" : 6,
       "name" : "E-shop",
+      "slug" : "e-shop",
       "image" : "/images/project/eShop.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -115,6 +130,7 @@
     {
       "id" : 7,
       "name" : "Portfolio v1",
+      "slug" : "portfolio-v1",
       "image" : "/images/project/portfolio_v1.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -123,6 +139,7 @@
     {
       "id" : 8,
       "name" : "All Star Games",
+      "slug" : "all-star-games",
       "image" : "/images/project/all_game.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -131,6 +148,7 @@
     {
       "id" : 9,
       "name" : "ToDo list",
+      "slug" : "todo-list",
       "image" : "/images/project/todo.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -139,6 +157,7 @@
     {
       "id" : 10,
       "name" : "Un peu meilleur chaque jour",
+      "slug" : "un-peu-meilleur-chaque-jour",
       "image" : "/images/project/meilleur.png",
       "type" : "projet formation",
       "status" : "terminé",
@@ -147,6 +166,7 @@
     {
       "id" : 11,
       "name" : "L'enclos v1",
+      "slug" : "compagnie-l-enclos-v1",
       "image" : "/images/project/enclos_v1.png",
       "type" : "projet pre-formation",
       "status" : "terminé",

@@ -3,7 +3,8 @@
     width : fit-content;
     margin : auto;
     min-height: 70vh;
-
+    cursor:pointer;
+    text-decoration: none;
 }
 
 .figure {
