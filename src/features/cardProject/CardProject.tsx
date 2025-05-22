@@ -3,18 +3,13 @@ import {ProjectProps} from "@/types/definition";
 import styles from "./cardProject.module.css"
 import Image from "next/image";
 import {CircleArrowRight} from "lucide-react";
-import {useRouter} from "next/navigation";
+
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
 
 export default function CardProject({dataProject}: {dataProject: ProjectProps}) {
 
             const {name, image, type,  synopsis, slug} = dataProject
-                const router = useRouter()
 
-    const handleClickOpenCard = () => {
-
-                router.push(`/projects/${slug}`)
-    }
 
     return (<>
 
