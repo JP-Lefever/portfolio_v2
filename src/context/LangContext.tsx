@@ -7,7 +7,7 @@ import enData from "@/assets/locales/en.json"
 
 type Language = "fr" | "en"
 
-interface LanguageContextProps {
+type LanguageContextProps = {
     language: Language;
     data: LanguageProps;
     setLanguage: (lang: Language) => void;
@@ -29,6 +29,6 @@ export const LanguageProvider = ({ children }: { children : ReactNode }) => {
 
 export const useLanguage = () => {
     const context = useContext(LanguageContext);
-    if (!context) throw new Error("useLanguage must be used within the language");
+    if (!context) throw new Error("Traduction not found");
     return context;
 }
