@@ -1,15 +1,14 @@
 import styles from "./footer.module.css"
-import Image from "next/image"
+import SocialLink from "@/components/ui/socialLink/SocialLink";
 
 export default function Footer() {
 
     return (<>
     <section className={styles.sectionFooter}>
-        <article>
-            <figure className={styles.figure}>
-                <Image className={styles.image} src={"/images/header.png"} alt={"logo"} fill={true}/>
-            </figure>
+        <article className={styles.socialLink}>
+                <SocialLink/>
         </article>
+
         <article>
             <h2>Portfolio</h2>
             <p>LEFEVER Jean-Philippe</p>
@@ -21,6 +20,7 @@ export default function Footer() {
         <p>Animation with<a href={"https://motion.dev/"} target={"_blank"} rel={"noreferrer"}> Framer-Motion</a></p>
         <p>Carousel with<a href={"https://swiperjs.com/get-started"} target={"_blank"} rel={"noreferrer"}> Swiperjs</a></p>
         </article>
+
     </section>
     </>)
 }

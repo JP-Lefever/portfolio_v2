@@ -46,5 +46,6 @@ export type ContactProps = {
     mail: string;
     tel: string;
     cv: string;
+    social: string;
     download: string;
 };
