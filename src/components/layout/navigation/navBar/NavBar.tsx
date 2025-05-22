@@ -1,21 +1,26 @@
 "use client"
-
-import dataNav from "@/assets/locales/fr.json"
 import styles from "./navBar.module.css"
 import {BurgerMenu} from "@/components/ui/buttons/Buttons";
 import {useState} from "react";
 import { Languages } from 'lucide-react'
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
+import {useLanguage} from "@/context/LangContext";
 
 
 export default function Navbar() {
 
-    const data = dataNav.navbar
+
     const [isOpenMenu, setIsOpenMenu] = useState(false);
     const handleClickOpenMenu = ()=>{
         setIsOpenMenu(!isOpenMenu)
     }
 
+    const {language,setLanguage, data} = useLanguage();
+    const toggleLanguage = () => {
+        setLanguage(language === "fr" ? "en" : "fr");
+    }
+
+    const {navbar} = data
     
     return <>
         <nav className={styles.nav}>
@@ -29,19 +34,23 @@ export default function Navbar() {
 
             <article className={`${styles.menu} ${isOpenMenu ? styles.menuOpen : styles.menuClosed}`}>
                 <ul className={styles.ul}>
-                            {data.map((d) => (
+                            {navbar.map((d) => (
                                 <li key={d.id} className={styles.li}>
                                     <TransitionLinks className={styles.link} href={d.link}>{d.name}</TransitionLinks>
                                 </li>
                             ))}
                 </ul>
                 <article className={styles.contextMobile}>
-                    <Languages color={"#ffffff"}/>
+                    <button className={styles.button} type={"button"} onClick={toggleLanguage}>
+                        <Languages className={language === "fr" ? styles.fr : styles.en}/>
+                    </button>
                 </article>
             </article>
 
             <article className={styles.context}>
-                <Languages color={"#ffffff"}/>
+                <button className={styles.button} type={"button"} onClick={toggleLanguage}>
+                <Languages className={language === "fr" ? styles.fr : styles.en} size={36}/>
+                </button>
             </article>
 
         </nav>

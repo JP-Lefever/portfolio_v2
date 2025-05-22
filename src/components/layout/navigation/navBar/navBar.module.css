@@ -114,6 +114,17 @@
     }
 }
 
+.button{
+        border: none;
+        background-color: var(--blue-coin);
+        cursor: pointer;
+}
 
 
+.fr{
+    color : var(--white-pure);
+}
 
+.en{
+    color : var(--yellow-school-bus);
+}

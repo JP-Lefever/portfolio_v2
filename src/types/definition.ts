@@ -49,3 +49,41 @@ export type ContactProps = {
     social: string;
     download: string;
 };
+
+export type TitlesProps = {
+    project: string;
+    projectDetail : string;
+    ui: string;
+    admin : string;
+    techno : string;
+    technoPage : string;
+    filterButton : string;
+}
+
+export type TechProps = {
+    id: number;
+    label: string;
+    image: string;
+};
+
+export type HeaderProps = {
+    title: string;
+    subTitle: string;
+    exp: string;
+};
+
+export type NavProps = {
+    id: number;
+    name: string;
+    link: string;
+};
+
+export type LanguageProps = {
+    navbar: NavProps[];
+    header : HeaderProps;
+    technology: TechProps[];
+    titles: TitlesProps;
+    project: ProjectProps[];
+    about: AboutProps;
+    contact: ContactProps;
+}

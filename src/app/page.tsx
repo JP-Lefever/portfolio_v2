@@ -5,13 +5,18 @@ import {PageTransition2} from "@/components/ui/animation/Animation";
 
 
 
+
 export default function Home() {
+
+
+
+
   return (<>
 
 <PageTransition2>
         <Header />
-        <SliderProject/>
-        <Technology/>
+        <SliderProject  />
+        <Technology />
 </PageTransition2>
 
       </>

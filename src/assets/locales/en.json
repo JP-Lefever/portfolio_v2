@@ -1,0 +1,286 @@
+{
+  "navbar": [
+    {
+      "id": 1,
+      "name": "Project",
+      "link": "/projects"
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "id": 3,
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
+  "header" : {
+    "title" : "Web Developer ",
+    "subTitle" : "full stack",
+    "exp" : "junior..."
+  },
+  "technology" : [
+    {
+      "id": 1,
+      "label" : "React",
+      "image" : "/images/tech/react.png"
+    },
+    {
+      "id": 2,
+      "label" : "TypeScript",
+      "image" : "/images/tech/ts.png"
+    },
+    {
+      "id": 3,
+      "label" : "Next.js",
+      "image" : "/images/tech/next.png"
+    },
+    {
+      "id": 4,
+      "label" : "Node.js",
+      "image" : "/images/tech/node.png"
+    },
+    {
+      "id": 5,
+      "label" : "Express",
+      "image" : "/images/tech/expressjs.png"
+    },
+    {
+      "id": 6,
+      "label" : "MySQL",
+      "image" : "/images/tech/mysql.png"
+    },
+    {
+      "id": 7,
+      "label" : "Postgres",
+      "image" : "/images/tech/postgre.png"
+    },
+    {
+      "id": 8,
+      "label" : "Figma",
+      "image" : "/images/tech/figma.png"
+    }
+  ],
+  "titles" : {
+    "project" : "Project",
+    "projectDetail" : "Project",
+    "ui": "UI/UX",
+    "admin" : "Admin",
+    "techno" : "Technologies used",
+    "technoPage" :"My Technos...",
+    "filterButton" : "All project"
+  },
+  "project" : [
+    {
+      "id" : 1,
+      "name" : "La Compagnie L'Enclos",
+      "slug" : "compagnie-l-enclos",
+      "image" : "/images/project/enclos_v2.png",
+      "type" : "Professional project",
+      "status" : "In progress",
+      "synopsis" : "Showcase website for a professional theater company",
+      "project": "L’Enclos is a theatre company that I chair. It already had a functional website built with WordPress. While a redesign wasn’t strictly necessary, I decided to rebuild the site from scratch using Next.js to modernize the interface, improve performance, and simplify maintenance. I also migrated and structured the existing content to ensure continuity while enhancing the user experience.",
+      "imageProject" : "/images/project/enclos/project.png",
+      "ui" : "A wireframe was created to present the overall page layout and the arrangement of various information to the company. The company provided me with their logo, the images to be used, as well as the style guide. The CSS is managed with modules, and animations were added using Framer Motion and Slick Carousel.",
+      "imageUi" : "/images/project/enclos/ui.png",
+      "admin" : "The database is managed using Supabase and PostgreSQL. The project remains flexible, allowing for the expansion of features available to the site administrator. For now, the focus has been on enabling autonomous management of the essential data from the start. The admin interface allows for managing event dates, with options to add, modify, or delete them. I also implemented handling of messages sent through the contact form, giving the administrator the ability to read and organize these messages. In the future, the site could be enhanced to include management of shows or immersive workshops.",
+      "imageAdmin": "/images/project/enclos/admin1.png",
+      "imageAdmin1": "/images/project/enclos/admin.png",
+      "imageAdmin2": "/images/project/enclos/admin2.png",
+      "techno" : ["Next.js", "TypeScript", "Module CSS", "Supabase", "PostgreSQL", "Framer Motion", "Slick Carousel", "Deployment : Vercel"],
+      "web" : "https://lenclos.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/l-enclos"
+    },
+    {
+      "id" : 2,
+      "name" : "Glamping Spot",
+      "slug" : "glamping",
+      "image" : "/images/project/glamping.png",
+      "type" : "Professional project",
+      "status" : "In progress",
+      "synopsis" : "Showcase website for camping",
+      "project" : "This project was initially completed at the end of my training using React and was later revisited as my first project with Next.js. The goal was to create a site with enough perspective to better understand client expectations and needs, with the potential to commercialize the project. Although the site remains basic, it provides a clear idea of what the final outcome could look like.",
+      "imageProject" : "/images/project/glamping/project.png",
+      "ui" : "As with every project, I started by creating a wireframe to guide my work. I studied common practices among camping chains to maintain the familiar cues and styles typical of vacation sites, then developed my graphic charter.",
+      "imageUi" : "/images/project/glamping/ui.png",
+      "admin" : "The database is managed using Supabase and PostgreSQL. To ensure full autonomy for the administrator, they have the ability to add infrastructures, accommodations, pitches, and even create an entirely new campsite from scratch.",
+      "imageAdmin": "/images/project/glamping/admin1.png",
+      "imageAdmin1": "/images/project/glamping/admin.png",
+      "imageAdmin2": "/images/project/glamping/admin2.png",
+      "techno" : ["Next.js", "TypeScript", "Module CSS", "Supabase", "PostgreSQL", "Deployment : Vercel"],
+      "web" : "https://glamping-gamma.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Glamping-spot"
+    },
+    {
+      "id" : 3,
+      "name" : "Geocode",
+      "slug" : "geocode",
+      "image" : "/images/project/geocode.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "Geolocation platform for electric charging stations",
+      "project" : "This project, completed in collaboration with two other students, was the final one in our training program. I presented it during my DWWM certification. Proposed by our instructor, the goal was to enable users to geolocate themselves, easily find nearby charging stations, and book a time slot. The application also includes user profile management, vehicle management, and other features.",
+      "imageProject" : "/images/project/geocode/project.png",
+      "ui" : "Throughout the project, each phase had to be approved by our instructor: creating the wireframe, designing the Figma prototype, and modeling the database before starting the coding. Our instructor also provided us with the logo and the style guide to follow.",
+      "imageUi" : "/images/project/geocode/ui.png",
+      "admin" : "The database is managed with MySQL. A key aspect of the project was handling and uploading a CSV file containing government data to catalog all stations and charging points. On the admin side, we also provide features to manage user profiles, vehicles, and messages.",
+      "imageAdmin": "/images/project/geocode/admin1.png",
+      "imageAdmin1": "/images/project/geocode/admin.png",
+      "imageAdmin2": "/images/project/geocode/admin2.png",
+      "techno" : ["React", "Vite", "TypeScript", "Node.js", "Express", "MySQL", "React Router", "Tailwind CSS", "Multer", "JWT", "Joi", "Argon"],
+      "web" : "",
+      "git" : "https://github.com/WildCodeSchool-2024-09/JS-RemoteFR-Vert-CrewCodeIle-GeoCode-P3"
+    },
+    {
+      "id" : 4,
+      "name" : "Carotaine",
+      "slug" : "carotaine",
+      "image" : "/images/project/carotaine.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "24-hour hackathon on the theme of apocalypse and kindness",
+      "project" : "This project was completed during a 24-hour hackathon organized by Wild Code School as part of our training. We were grouped into teams of four strangers and tasked with creating a website centered around the themes of kindness and apocalypse.",
+      "imageProject" : "/images/project/carotaine/project.png",
+      "ui" : "We started with a brainstorming session to share our ideas and decide on the direction to take. Then, we created a wireframe to establish a common vision, focusing on a simple and clear design with a limited number of well-executed features to meet the deadlines.",
+      "imageUi" : "/images/project/carotaine/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Module CSS", "Slick Carousel", "Deployment : Vercel"],
+      "web" : "https://carotaine.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Carotaine"
+    },
+    {
+      "id" : 5,
+      "name" : "Boarder line",
+      "slug" : "boarder-line",
+      "image" : "/images/project/border_line.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "Platform for board game enthusiasts",
+      "project" : "This project was carried out in a group of four students as part of my training. The theme was freely chosen by the team, with the requirement to use an external API or build our own. After several crashes with the external API, we decided to develop our own. The project was completed over two weeks following two months of training",
+      "imageProject" : "/images/project/boarder/project.png",
+      "ui" : "To kick off the project, we created our wireframe on Excalidraw to align our visions on the organization and structure of the pages before moving on to developing the Figma prototype. This prototype allowed us to incorporate the style guide and present an interactive model.",
+      "imageUi" : "/images/project/boarder/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Module CSS", "Deployment : Vercel"],
+      "web" : "https://border-line-client.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Border_Line"
+    },
+    {
+      "id" : 6,
+      "name" : "E-shop",
+      "slug" : "e-shop",
+      "image" : "/images/project/eShop.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "E-commerce site with filtering system and detailed product page",
+      "project" : "This project was developed during the training as an exercise following the learning of API usage with React and dynamic URLs.",
+      "imageProject" : "/images/project/eshop/project.png",
+      "ui" : "he project was built using Tailwind CSS, a framework I discovered during this project. The interface remains simple, with the main focus placed on React.",
+      "imageUi" : "/images/project/eshop/ui.png",
+      "techno" : ["React", "Vite","TypeScript","API REST", "Tailwind CSS","Deployment : Vercel"],
+      "web" : "https://e-shop-client-eight.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/E_shop"
+    },
+    {
+      "id" : 7,
+      "name" : "Portfolio v1",
+      "slug" : "portfolio-v1",
+      "image" : "/images/project/portfolio_v1.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "First portfolio created",
+      "project" : "This is my first portfolio, created early in my training, just a few weeks after I started learning React. Built with Vite, this project allowed me to quickly showcase the progress of my learning.",
+      "imageProject" : "/images/project/portfolio/project.png",
+      "ui" : "It was by exploring many portfolios for inspiration that I arrived at this modest design, reflecting my beginner-level skills. I gathered ideas from various sources and combined them with my personal touch.",
+      "imageUi" : "/images/project/portfolio/ui.png",
+      "techno" : ["React", "Vite","TypeScript", "React router","Module CSS", "Framer-motion","Deployment : Vercel"],
+      "web" : "https://portfolio-rho-azure-84.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/Portfolio"
+    },
+    {
+      "id" : 8,
+      "name" : "All Star Games",
+      "slug" : "all-star-games",
+      "image" : "/images/project/all_game.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "Plateforme de vente de jeux de société",
+      "project" : "The beginning of my React journey! This exercise marked the end of my first week of learning. A couple of components, some props, a few states... and the magic started to happen. ",
+      "imageProject" : "/images/project/allStar/project.png",
+      "techno" : ["React", "Vite","TypeScript", "CSS", "Deployment : Vercel"],
+      "web" : "https://game-challenge-omega.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/gameChallenge"
+    },
+    {
+      "id" : 9,
+      "name" : "ToDo list",
+      "slug" : "todo-list",
+      "image" : "/images/project/todo.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "To-Do list built with JavaScript and the DOM",
+      "project" : "This was the very first group project of the training, completed in one week by a team of three. It marked our first steps in JavaScript and DOM manipulation. Fully built with HTML, CSS, and JavaScript DOM, this project—chosen from five options—was both challenging and rewarding for the start of our training",
+      "imageProject" : "/images/project/todo/project.png",
+      "techno" : ["JS", "HTML", "CSS", "Deployment : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/todo/",
+      "git" : "https://github.com/JP-Lefever/todo"
+    },
+    {
+      "id" : 10,
+      "name" : "Un peu meilleur chaque jour",
+      "slug" : "un-peu-meilleur-chaque-jour",
+      "image" : "/images/project/meilleur.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "Website about economics, finance, and personal development",
+      "project" : "My very first website, built in 4 hours during the first week of my training at Wild Code School, after just one week of learning HTML and CSS. Those first sparks of inspiration—and the excitement of seeing your very first lines of code come to life.",
+      "imageProject" : "/images/project/meilleur/project.png",
+      "techno" : ["HTML", "CSS", "Deployment : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/Meilleur-chaque-jour/",
+      "git" : "https://github.com/JP-Lefever/Meilleur-chaque-jour"
+    },
+    {
+      "id" : 11,
+      "name" : "L'enclos v1",
+      "slug" : "compagnie-l-enclos-v1",
+      "image" : "/images/project/enclos_v1.png",
+      "type" : "Training project",
+      "status" : "Completed",
+      "synopsis" : "First website created for the company L'Enclos",
+      "project" : "My very first steps in web development involved recreating the company L’Enclos’s website, originally built with WordPress, using HTML and CSS.",
+      "imageProject" : "/images/project/enclosV1/project.png",
+      "techno" : ["HTML", "CSS", "Deployment : GitHub Page"],
+      "web" : "https://jp-lefever.github.io/L-enclos_V1/l_histoire.html",
+      "git" : "https://github.com/JP-Lefever/L-enclos_V1"
+    }
+  ],
+  "about": {
+    "title": "About me",
+    "parcours": "Carreer",
+    "parcoursText" : "I hold a Master’s degree in STAPS education and initially focused my career on animation and management within the sports and leisure sector. Early on, my passion for travel led me to discover the outdoor hospitality industry—a field where people, organization, and hands-on experience are central. This path took me away from Northern France to fully commit to long seasonal work, eventually progressing to strategic roles. I held various leadership positions within a national group of 80 campsites, ranging from project manager to director of sites employing up to 80 staff members.\n\nDriven by a desire for renewal and skill development, I transitioned into web development. After completing an intensive training at Wild Code School, I earned the professional title of Web and Mobile Web Developer (RNCP level 5). Today, I design modern applications by combining technical rigor, organizational skills, and user-centered sensitivity—qualities shaped throughout my journey",
+    "lectureTitle": "Reading",
+    "bookOne": "Clean code",
+    "bookTwo": "The Power of Now",
+    "bookThree": "Rich Dad, Poor Dad",
+    "playlistTitle": "Playlist",
+    "playlistOne": "Bon entendeur",
+    "playlistTwo": "Polo & Pan",
+    "playlistThree": "Chinese man",
+    "playlistFour": "Bob marley & the wailers",
+    "playlistFive": "The Doors",
+    "hobbieTitle": "Hobbies",
+    "sport": "Sport",
+    "games": "Modern board games",
+    "travel": "Travel"
+  },
+  "contact" : {
+    "title" : "Contact...",
+    "info" : "Contact me",
+    "mail" : "lefever.jp@hotmail.fr",
+    "tel" : "07.81.96.64.96",
+    "social" : "Social networks",
+    "cv" : "CV",
+    "download" : "Download CV"
+  }
+}
+
