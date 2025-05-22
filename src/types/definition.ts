@@ -19,3 +19,23 @@ export type ProjectProps = {
     git: string;
 
 }
+
+export type AboutProps = {
+    title: string;
+   parcours : string;
+   parcoursText: string;
+    lectureTitle: string;
+    bookOne: string;
+    bookTwo: string;
+    bookThree: string;
+    playlistTitle: string;
+    playlistOne: string;
+    playlistTwo: string;
+    playlistThree: string;
+    playlistFour: string;
+    playlistFive: string;
+    hobbieTitle: string;
+    sport: string;
+    games: string;
+    travel: string;
+}
