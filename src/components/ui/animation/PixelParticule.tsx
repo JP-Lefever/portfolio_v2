@@ -7,6 +7,7 @@ export default function PixelParticle() {
     const [y, setY] = useState(0);
     const [delay, setDelay] = useState(0);
     const [size, setSize] = useState(2);
+    const [color, setColor] = useState("#ffffff");
 
     const colors = ["#00f6ff", "#ff00f7", "#ffe600", "#ff6b00", "#00ff9d"];
 
@@ -15,6 +16,7 @@ export default function PixelParticle() {
         setY(Math.random() * 100);
         setDelay(Math.random() * 5);
         setSize(2 + Math.random() * 6);
+        setColor(colors[Math.floor(Math.random() * colors.length)]);
     }, []);
 
 
@@ -23,7 +25,7 @@ export default function PixelParticle() {
         left: `${x}%`,
         width: `${size}px`,
         height: `${size}px`,
-        backgroundColor: colors[Math.floor(Math.random() * colors.length)],
+        backgroundColor: `${color}`,
         animationDelay: `${delay}s, ${delay}s`,
 
     };

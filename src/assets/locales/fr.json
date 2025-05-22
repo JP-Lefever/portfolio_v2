@@ -244,6 +244,34 @@
       "web" : "https://jp-lefever.github.io/L-enclos_V1/l_histoire.html",
       "git" : "https://github.com/JP-Lefever/L-enclos_V1"
     }
-  ]
+  ],
+  "about": {
+    "title": "A propos de moi...",
+    "parcours": "parcours",
+    "parcoursText" : "Issu d'une formation universitaire en enseignement STAPS, jusqu'au niveau Master, j’ai d’abord orienté ma carrière vers le secteur de l’animation et de la gestion dans le milieu du sport et des loisirs. Très tôt, le goût du voyage m’a conduit à découvrir le monde de l’hôtellerie de plein air, un environnement où l’humain, l’organisation et le sens du terrain sont au cœur des enjeux.Ce chemin m’a amené à quitter le Nord de la France pour m’investir pleinement dans des saisons longues, jusqu’à évoluer vers des fonctions stratégiques. J’ai ainsi occupé plusieurs postes à responsabilités au sein d’un groupe national de 80 campings, allant de chargé de mission à la direction d’établissements accueillant jusqu’à 80 collaborateurs.Porté par un désir de renouveau et d'apprentissage, j’ai entrepris une reconversion vers les métiers du développement web. Après une formation intensive à ma Wild Code School, j’ai obtenu le titre professionnel de Développeur Web et Web Mobile (niveau RNCP 5). Aujourd’hui, j'essaie de concevoir des applications modernes, alliant rigueur technique, sens de l’organisation et sensibilité utilisateur acquise tout au long de mon parcours.",
+    "lectureTitle": "Lecture",
+    "bookOne": "Coder proprement",
+    "bookTwo": "Le pouvoir du moment présent",
+    "bookThree": "Père riche, père pauvre",
+    "playlistTitle": "Playlist",
+    "playlistOne": "Bon entendeur",
+    "playlistTwo": "Polo & Pan",
+    "playlistThree": "Chinese man",
+    "playlistFour": "Bob marley & the wailers",
+    "playlistFive": "The Doors",
+    "hobbieTitle": "Hobbies",
+    "sport": "Sport",
+    "games": "Jeux de société modernes",
+    "travel": "Voyages"
+  },
+  "contact" : {
+    "title" : "Contact...",
+    "info" : "Me contacter",
+    "mail" : "lefever.jp@hotmail.fr",
+    "tel" : "07.81.96.64.96",
+    "social" : "Réseaux",
+    "cv" : "CV",
+    "download" : "Télécharger CV"
+  }
 }
 
