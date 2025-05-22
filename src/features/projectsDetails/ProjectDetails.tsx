@@ -16,6 +16,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
 
                 <section key={d.id} className={styles.sectionProject}>
                     <TransitionLinks className={styles.link} href={"/projects"} ><CircleX size={48} color={"#DDE2E4"}/></TransitionLinks>
+
                     <article className={styles.articleHead}>
                         <figure className={styles.figureHead}>
                             <Image className={styles.imageHead} src={d.image} alt={d.name} fill={true}/>
@@ -25,6 +26,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         <ButtonSite web={d.web} git={d.git}/>
                         </section>
                     </article>
+
                     <article className={styles.articleProject}>
                         <h3 className={styles.h3}>Le projet</h3>
                         <section className={styles.sectionInfo}>
@@ -34,6 +36,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         <p className={styles.projectInfo}>{d.project}</p>
                         </section>
                     </article>
+
                     {d.ui &&
                     <article className={styles.articleUi}>
                         <h3 className={styles.h3}>UI/UX</h3>
@@ -45,6 +48,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         </section>
                     </article>
                     }
+
                     {d.admin &&
                     <article className={styles.articleAdmin}>
                         <h3 className={styles.h3}>Admin</h3>
@@ -71,6 +75,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
 
                     </article>
                     }
+
                     <article className={styles.articleTech}>
                         <h3 className={styles.h3}>Technologies utilisées</h3>
                         <section className={styles.sectionTech}>
@@ -80,6 +85,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         </section>
 
                     </article>
+
                 </section>
             ))
 
