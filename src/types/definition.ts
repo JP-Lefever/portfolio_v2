@@ -8,12 +8,12 @@ export type ProjectProps = {
     synopsis: string;
     project:string;
     imageProject: string;
-    ui: string;
-    imageUi:string;
-    admin: string;
-    imageAdmin: string;
-    imageAdmin1: string;
-    imageAdmin2: string;
+    ui?: string;
+    imageUi?:string;
+    admin?: string;
+    imageAdmin?: string;
+    imageAdmin1?: string;
+    imageAdmin2?: string;
     techno: string[];
     web: string;
     git: string;

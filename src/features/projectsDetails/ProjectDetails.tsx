@@ -42,7 +42,9 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                         <h3 className={styles.h3}>UI/UX</h3>
                         <section className={styles.sectionInfo}>
                         <figure className={styles.figureUi}>
+                            {d.imageUi &&
                         <Image className={styles.imageUi} src={d.imageUi} alt={d.name} fill={true}/>
+                            }
                         </figure>
                         <p className={styles.projectInfo}>{d.ui}</p>
                         </section>
@@ -58,17 +60,23 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                             </div>
                             <div className={styles.div}>
                         <figure className={styles.figureAdmin}>
+                            {d.imageAdmin &&
                         <Image className={styles.imageAdmin} src={d.imageAdmin} alt={d.name} fill={ true}/>
+                            }
                         </figure >
                             </div>
                             <div className={styles.div}>
                         <figure className={styles.figureAdmin}>
+                            {d.imageAdmin1 &&
                         <Image className={styles.imageAdmin} src={d.imageAdmin1} alt={d.name} fill={ true}/>
+                            }
                         </figure>
                             </div>
                                 <div className={styles.div}>
                         <figure className={styles.figureAdmin}>
+                            {d.imageAdmin2 &&
                         <Image className={styles.imageAdmin} src={d.imageAdmin2} alt={d.name} fill={ true}/>
+                            }
                         </figure>
                                 </div>
                         </section>

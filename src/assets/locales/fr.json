@@ -72,7 +72,7 @@
       "type" : "projet pro",
       "status" : "en cours",
       "synopsis" : "Site vitrine pour compagnie de théâtre professionnelle",
-      "project" : "La compagnie L'Enclos est une compagnie de théâtre dont je suis le président. Elle disposait d'un site réalisé par ses propres moyens avec WordPress. L'objectif était donc de reprendre les données existantes, mais de proposer un style nouveau, plus moderne et attractif.",
+      "project": "La compagnie L'Enclos est une compagnie de théâtre dont je suis le président. Elle disposait d'un site réalisé avec WordPress. L’objectif était de conserver les données existantes tout en proposant un style plus moderne et attractif.",
       "imageProject" : "/images/project/enclos/project.png",
       "ui" : "Un wireframe a été réalisé pour présenter à la compagnie l'organisation générale des pages et des différentes informations. La compagnie m'a fourni son logo, les images à exploiter, ainsi que la charte graphique. Le CSS est géré avec les modules, et des animations ont été ajoutées avec Framer Motion et Slick Carousel.",
       "imageUi" : "/images/project/enclos/ui.png",
