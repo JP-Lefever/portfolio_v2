@@ -1,8 +1,12 @@
+"use client"
 import styles from "./header.module.css"
-import dataHead from "@/assets/locales/fr.json"
 import PixelParticle from "@/components/ui/animation/PixelParticule";
+import {useLanguage} from "@/context/LangContext";
 
 export default function Header() {
+
+    const {data} = useLanguage();
+    const {header} = data
 
     return(<>
 <header className={styles.header}>
@@ -13,7 +17,7 @@ export default function Header() {
                 <PixelParticle key={i} />
             ))}
         </div>
-        <h1 className={styles.typing}>{dataHead.header.title} <span className={styles.sub}>{dataHead.header.subTitle}</span> <span className={styles.subTitle}>{dataHead.header.exp}</span></h1>
+        <h1 className={styles.typing}>{header.title} <span className={styles.sub}>{header.subTitle}</span> <span className={styles.subTitle}>{header.exp}</span></h1>
     </section>
 </header>
 
