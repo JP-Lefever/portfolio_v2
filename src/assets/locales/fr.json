@@ -263,6 +263,14 @@
     "sport": "Sport",
     "games": "Jeux de société modernes",
     "travel": "Voyages"
+  },
+  "contact" : {
+    "title" : "Contact...",
+    "info" : "Me contacter",
+    "mail" : "jplefever@hotmail.fr",
+    "tel" : "07.81.96.64.96",
+    "cv" : "CV",
+    "download" : "Télécharger CV"
   }
 }
 

@@ -39,3 +39,12 @@ export type AboutProps = {
     games: string;
     travel: string;
 }
+
+export type ContactProps = {
+    title: string;
+    info: string;
+    mail: string;
+    tel: string;
+    cv: string;
+    download: string;
+};
