@@ -16,6 +16,7 @@ export default function ProjectDetails({slug} : {slug: string}) {
     const projectSlug: ProjectProps[] = project.filter((d) => d.slug === slug)
 
 
+
     return (<>
 
             {projectSlug.map((d: ProjectProps) => (
@@ -27,14 +28,18 @@ export default function ProjectDetails({slug} : {slug: string}) {
                         <figure className={styles.figureHead}>
                             <Image className={styles.imageHead} src={d.image} alt={d.name} fill={true}/>
                         </figure>
+
                         <section className={styles.sectionLink}>
-                        <h2 className={styles.h2}>{d.name}</h2>
+                            <div>
+                            <h2 className={styles.h2}>{d.name}</h2>
+                            <p className={styles.status}>{d.status === "Projet en cours" || d.status === "In progress" ?  d.status : ""}</p>
+                            </div>
                         <ButtonSite web={d.web} git={d.git}/>
                         </section>
                     </article>
 
                     <article className={styles.articleProject}>
-                        <h3 className={styles.h3}>{titles.project}</h3>
+                        <h3 className={styles.h3}>{titles.projectDetail}</h3>
                         <section className={styles.sectionInfo}>
                         <figure className={styles.figureProject}>
                         <Image className={styles.imageProject} src={d.imageProject} alt={d.name} fill={true}/>
