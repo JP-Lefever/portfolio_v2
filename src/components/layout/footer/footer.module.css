@@ -1,0 +1,54 @@
+.sectionFooter{
+    margin-top: 20vh;
+    display: flex;
+position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px var(--white-pure);
+    padding : 10vh 5vw;
+
+}
+
+.socialLink{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+         display: flex;
+        flex-direction: column;
+        left: 0;
+
+    }
+}
+
+
+.sectionFooter article:nth-of-type(2){
+    color: var(--white-pure);
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 2vh;
+    @media screen and (min-width: 768px) {
+        font-size: 2em;
+
+    }
+}
+.sectionFooter article:nth-of-type(3){
+    color: var(--white-pure);
+    margin-bottom: 2vh;
+    font-size: 0.8em;
+    line-height: 1.8em;
+    @media screen and (min-width: 768px) {
+        font-size: 1.2em;
+
+    }
+}
+.sectionFooter a{
+    color: var(--yellow-school-bus);
+    text-decoration: none;
+}
