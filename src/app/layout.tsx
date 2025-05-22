@@ -5,6 +5,8 @@ import React from "react";
 import NavBar from "@/components/layout/navigation/navBar/NavBar";
 
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,9 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${paragraphFont.className} ${paragraphFont2.variable} ${titleFont.variable}`}>
         <NavBar/>
-        <main>
         {children}
-        </main>
       </body>
     </html>
   );

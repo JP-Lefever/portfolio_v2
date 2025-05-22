@@ -7,7 +7,25 @@
 body{
   overflow-x: hidden;
   background-color: var(--blue-coin);
+  position: relative;
+  transition-property: opacity, background-color,filter,transform;
 }
+
+.page-transition{
+  opacity: 0;
+  background-color: #181E29;
+  filter:blur(10px);
+
+  transition : all 0.5s ease-in-out;
+}
+
+.section-transition{
+  transform : translateY(200px);
+  opacity: 0;
+  background-color: #181E29;
+  filter:blur(10px);
+}
+
 
 :root{
   --black-dark : #000000;
@@ -24,6 +42,9 @@ body{
   --blue-nuance : #212A3B;
   --padding : 1.5vh 2vw;
   --large-radius : 30px;
+  --small-radius : 10px;
   --margin-top : 2vh;
   --letter-spacing : 0.2em;
+  --title-responsive : 3em;
+  --title-size : 4em;
 }

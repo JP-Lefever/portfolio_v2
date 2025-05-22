@@ -1,0 +1,58 @@
+.tech {
+    margin: 4em auto ;
+    @media screen and (min-width: 768px) {
+    width: 80vw;
+
+    }
+}
+
+.sectionTech {
+    width : 90vw;
+    margin : auto;
+    border: 1px solid var(--grey-davy);
+    @media screen and (min-width: 768px) {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid var(--grey-davy);
+    }
+}
+
+.articleTech{
+    border: 1px solid var(--grey-davy);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    border-radius: var(--small-radius);
+    background-color: var(--white-platinium);
+    gap:1em;
+    letter-spacing: 0.1em;
+
+}
+
+.h2{
+    font-size: var(--title-responsive);
+    text-align: center;
+    color: var(--white-pure);
+    letter-spacing: 0.1em;
+
+    margin-bottom: 5vh;
+    @media screen and (min-width: 768px){
+    font-size: var(--title-size);
+
+    }
+}
+
+.label{
+    font-weight: lighter;
+}
+
+.image{
+    width : 20vw;
+    height : auto;
+    @media screen and (min-width: 768px) {
+        width: 3vw;
+        height: auto;
+    }
+}

@@ -9,7 +9,6 @@ export const titleFont = Anton({
 })
 
 export const paragraphFont = Bebas_Neue({
-    variable:"--paragraph-font",
     weight : "400",
     subsets:["latin"],
 })

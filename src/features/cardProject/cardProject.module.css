@@ -1,0 +1,111 @@
+.sectionCard{
+    position: relative;
+    width : fit-content;
+    margin : auto;
+    min-height: 70vh;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.figure {
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+
+    @media screen and (min-width: 768px) {
+
+        width: 20vw;
+        height: 50vh;
+    }
+}
+
+.image {
+    object-fit: cover;
+    border-radius: var(--large-radius);
+}
+
+.sectionLink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width:79vw;
+    padding : 1vh 1vw;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+
+    width:20vw;
+
+    }
+
+}
+
+.type {
+    border-radius: var(--small-radius);
+    background-color: var(--black-night);
+    padding: 0.2vh 1vw;
+    color: var(--white-platinium);
+    @media screen and (min-width: 768px) {
+        padding: 0.2vh 0.3vw;
+
+    }
+}
+.sectionCard .type {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: transform .3s ease-in-out;
+
+}
+.sectionCard:hover  .type{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+.sectionCard .arrow{
+    background-color: var(--black-night);
+    border-radius: 50%;
+    color: var(--white-platinium);
+    transform: rotate(0deg);
+    transition: transform .3s ease-in-out;
+
+}
+
+.sectionCard:hover .arrow{
+    color: var(--yellow-school-bus);
+    transform: rotate(-45deg);
+
+}
+
+.sectionInfo{
+    padding : 0.5em 1em;
+    color: var(--white-platinium);
+    width: 80vw;
+    @media screen and (min-width: 768px) {
+    width: 19vw;
+    }
+
+}
+.h2{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    width: 78vw;
+    @media screen and (min-width: 768px) {
+
+    width: 20vw;
+    }
+
+}
+
+.syno{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    width: 80vw;
+    @media screen and (min-width: 768px) {
+
+        width: 20vw;
+
+    }
+
+}
