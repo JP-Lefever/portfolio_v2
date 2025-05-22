@@ -2,6 +2,8 @@
 import styles from "./buttons.module.css"
 import {Menu, Globe, X, } from "lucide-react"
 
+import {useLanguage} from "@/context/LangContext";
+
 
 
 export const BurgerMenu = ({isOpenMenu, setIsOpenMenuAction} : {isOpenMenu : boolean,setIsOpenMenuAction : ()=>void})=>{
@@ -15,12 +17,14 @@ export const BurgerMenu = ({isOpenMenu, setIsOpenMenuAction} : {isOpenMenu : boo
     )
 }
 
-export const ButtonFilterProject = ({typeOfProject, setFilterAction, filter} : {typeOfProject : string[], setFilterAction : (s:string)=>void, filter:string})=>{
+export const ButtonFilterProject = ({typeOfProject, setFilterAction, filter} : {typeOfProject : string[], setFilterAction : (s:string)=>void, filter:string, })=>{
 
+    const {data} = useLanguage()
+    const {titles} = data
     return (
         <>
             <section className={styles.sectionFilter}>
-                <button className={filter === "" ? styles.active : styles.filterButton} onClick={()=>setFilterAction("all")} type={"button"}>Tous les projets</button>
+                <button className={filter === "" ? styles.active : styles.filterButton} onClick={()=>setFilterAction("all")} type={"button"}>{titles.filterButton}</button>
 
                 {typeOfProject.map((t)=>(
 

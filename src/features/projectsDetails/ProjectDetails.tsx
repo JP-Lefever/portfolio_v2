@@ -1,18 +1,24 @@
+"use client"
 import styles from "./projectDetail.module.css"
 import {ProjectProps} from "@/types/definition";
 import Image from "next/image";
 import {CircleX} from "lucide-react";
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
 import {ButtonSite} from "@/components/ui/buttons/Buttons";
+import {useLanguage} from "@/context/LangContext";
 
-export default function ProjectDetails({data, slug} : {data : ProjectProps[], slug: string}) {
+export default function ProjectDetails({slug} : {slug: string}) {
 
-    const project: ProjectProps[] = data.filter((d) => d.slug === slug)
+    const {data} = useLanguage()
+    const {project} = data
+    const {titles} = data
+
+    const projectSlug: ProjectProps[] = project.filter((d) => d.slug === slug)
 
 
     return (<>
 
-            {project.map((d: ProjectProps) => (
+            {projectSlug.map((d: ProjectProps) => (
 
                 <section key={d.id} className={styles.sectionProject}>
                     <TransitionLinks className={styles.link} href={"/projects"} ><CircleX size={48} color={"#DDE2E4"}/></TransitionLinks>
@@ -28,7 +34,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                     </article>
 
                     <article className={styles.articleProject}>
-                        <h3 className={styles.h3}>Le projet</h3>
+                        <h3 className={styles.h3}>{titles.project}</h3>
                         <section className={styles.sectionInfo}>
                         <figure className={styles.figureProject}>
                         <Image className={styles.imageProject} src={d.imageProject} alt={d.name} fill={true}/>
@@ -39,7 +45,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
 
                     {d.ui &&
                     <article className={styles.articleUi}>
-                        <h3 className={styles.h3}>UI/UX</h3>
+                        <h3 className={styles.h3}>{titles.ui}</h3>
                         <section className={styles.sectionInfo}>
                         <figure className={styles.figureUi}>
                             {d.imageUi &&
@@ -53,7 +59,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
 
                     {d.admin &&
                     <article className={styles.articleAdmin}>
-                        <h3 className={styles.h3}>Admin</h3>
+                        <h3 className={styles.h3}>{titles.admin}</h3>
                         <section className={styles.sectionAdmin}>
                             <div className={styles.div}>
                         <p className={styles.projectInfo}>{d.admin}</p>
@@ -85,7 +91,7 @@ export default function ProjectDetails({data, slug} : {data : ProjectProps[], sl
                     }
 
                     <article className={styles.articleTech}>
-                        <h3 className={styles.h3}>Technologies utilisées</h3>
+                        <h3 className={styles.h3}>{titles.techno}</h3>
                         <section className={styles.sectionTech}>
                         {d.techno?.map((tech)=>(
                         <p key={tech} className={styles.projectTech}>{tech}</p>

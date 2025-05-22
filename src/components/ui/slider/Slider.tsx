@@ -3,13 +3,14 @@ import {Swiper, SwiperSlide } from "swiper/react";
 import {Autoplay} from "swiper/modules"
 import "swiper/css"
 import CardCarousel from "@/features/cardCarousel/CardCarousel";
-import dataProject from "@/assets/locales/fr.json";
 import styles from "./slider.module.css"
+import {useLanguage} from "@/context/LangContext";
 
 
 export const SliderProject = ()=>{
 
-    const data = dataProject.project
+    const {data} = useLanguage()
+    const {project} = data
 
     return (<>
 
@@ -30,7 +31,7 @@ export const SliderProject = ()=>{
                 }}
         >
 
-            {data.map((d)=>(
+            {project.map((d)=>(
               <SwiperSlide className={styles.slide} key={d.id}> <CardCarousel dataCard ={d}/></SwiperSlide>
             ))}
 
