@@ -1,11 +1,9 @@
 "use client"
-
 import styles from "./navBar.module.css"
 import {BurgerMenu} from "@/components/ui/buttons/Buttons";
 import {useState} from "react";
 import { Languages } from 'lucide-react'
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
-import {NavProps} from "@/types/definition";
 import {useLanguage} from "@/context/LangContext";
 
 
@@ -43,14 +41,15 @@ export default function Navbar() {
                             ))}
                 </ul>
                 <article className={styles.contextMobile}>
-                    <Languages color={"#ffffff"}/>
+                    <button className={styles.button} type={"button"} onClick={toggleLanguage}>
+                        <Languages className={language === "fr" ? styles.fr : styles.en}/>
+                    </button>
                 </article>
             </article>
 
             <article className={styles.context}>
-                <button type={"button"} onClick={toggleLanguage}>
-
-                <Languages color={"#ffffff"}/>
+                <button className={styles.button} type={"button"} onClick={toggleLanguage}>
+                <Languages className={language === "fr" ? styles.fr : styles.en} size={36}/>
                 </button>
             </article>
 
