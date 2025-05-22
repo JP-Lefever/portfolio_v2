@@ -9,7 +9,6 @@ export default function Home() {
   return (<>
 
 <PageTransition2>
-
         <Header />
         <SliderProject/>
         <Technology/>

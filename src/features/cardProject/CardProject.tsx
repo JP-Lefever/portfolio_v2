@@ -1,17 +1,21 @@
+"use client"
 import {ProjectProps} from "@/types/definition";
 import styles from "./cardProject.module.css"
 import Image from "next/image";
 import {CircleArrowRight} from "lucide-react";
 
+import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
+
 export default function CardProject({dataProject}: {dataProject: ProjectProps}) {
 
-            const {name, image, type,  synopsis} = dataProject
+            const {name, image, type,  synopsis, slug} = dataProject
+
 
     return (<>
 
 
-            <section className={styles.sectionCard}>
-                <article className={styles.articleImage}>
+            <TransitionLinks href={`/projects/${slug}`} className={styles.sectionCard}>
+                <article>
                     <figure className={styles.figure}>
                         <Image className={styles.image} src={image} alt={name} fill={true} />
                     </figure>
@@ -26,7 +30,7 @@ export default function CardProject({dataProject}: {dataProject: ProjectProps}) 
                         <p className={styles.syno}>{synopsis}</p>
                     </article>
 
-            </section>
+            </TransitionLinks>
         </>
     )
 }
