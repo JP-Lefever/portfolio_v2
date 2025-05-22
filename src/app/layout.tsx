@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${paragraphFont.className} ${paragraphFont2.variable} ${titleFont.variable}`}>
+    <html lang="en" className={`${paragraphFont2.variable} ${titleFont.variable}`}>
+      <body className={`${paragraphFont.className}`}>
         <NavBar/>
         {children}
       </body>

@@ -11,7 +11,6 @@ const dataProject = data.project
 
 
 <PageTransition>
-
         <Projects dataProject = {dataProject} />
 </PageTransition>
 
