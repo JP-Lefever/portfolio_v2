@@ -16,7 +16,7 @@ export const SliderProject = ()=>{
 
         <Swiper
             className={styles.swiperProject}
-            spaceBetween={60}
+            spaceBetween={80}
             slidesPerView={1.2}
             freeMode={true}
             speed={3000}
@@ -24,10 +24,20 @@ export const SliderProject = ()=>{
             modules={[Autoplay]}
             autoplay={{delay: 0,  pauseOnMouseEnter: true}}
             breakpoints={{
-                    768: {
-                        slidesPerView: 6,
-                        spaceBetween: 260,
-                    }
+                768: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 120,
+                },
+                1080: {
+                    slidesPerView: 4,
+                    spaceBetween:120,
+                },
+                1480: {
+                    slidesPerView: 6,
+                    spaceBetween:260,
+                },
+
+
                 }}
         >
 

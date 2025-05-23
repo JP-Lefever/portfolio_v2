@@ -11,7 +11,7 @@
     position : relative;
     overflow: hidden;
     padding : 2vh 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         background-position: center left;
         background-size: 80vh;
         height : 90vh;
@@ -26,7 +26,13 @@
     font-size: var(--title-responsive);
     color: var(--white-pure);
     width: 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 5em;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 6em;
+    }
+    @media screen and (min-width: 1281px) {
         font-size: 8em;
     }
 }
@@ -35,8 +41,11 @@
     width: fit-content;
     letter-spacing: var(--letter-spacing);
     text-align: center;
-
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1024px) {
+        text-align: left;
+        margin-left: 40vw;
+    }
+    @media screen and (min-width: 1281px) {
         text-align: left;
         margin-left: 25vw;
     }

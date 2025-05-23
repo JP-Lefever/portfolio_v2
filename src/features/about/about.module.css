@@ -6,7 +6,7 @@
     border-radius: var(--large-radius);
     padding: 1em;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1281px) {
         width : 70vw;
         padding: 2em;
 
@@ -17,7 +17,7 @@
 
     font-size: var(--title-responsive);
     color: var(--white-platinium);
-
+    line-height: 1.2em;
 
     @media screen and (min-width: 768px) {
         letter-spacing: 0.1em;
@@ -29,7 +29,7 @@
     position: relative;
     width: 25vw;
     height: 25vw;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         position: relative;
         width: 10vw;
         height: 10vw;
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
         padding-bottom: 1em;
         display: flex;
@@ -64,7 +64,7 @@
     letter-spacing: 0.1em;
     padding-bottom: 0.5em;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding-bottom: 0;
     }
 }
@@ -74,7 +74,7 @@
     flex-direction: column;
     margin: 2em 0;
     line-height: 1.8em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -84,8 +84,12 @@
 }
 
 .sectionAbout p {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1281px) {
         width: 30vw;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+        width: 50vw;
+
     }
 }
 
