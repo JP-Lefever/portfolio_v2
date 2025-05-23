@@ -4,6 +4,9 @@
     margin : var(--margin-top) 0 ;
     padding : var(--padding) 0;
     border-bottom: 2px solid var(--blue-nuance);
+    position: sticky;
+    top: 0;
+    z-index: 10;
     @media screen and (min-width: 768px)  {
         display: flex;
         flex-direction: row;
