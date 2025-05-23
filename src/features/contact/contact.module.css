@@ -6,7 +6,7 @@
     background-color: var(--grey-davy);
     border-radius: var(--large-radius);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    @media screen and (min-width: 1080px) {
+    @media screen and (min-width: 1281px) {
         width : 70vw;
         padding: 2em;
 

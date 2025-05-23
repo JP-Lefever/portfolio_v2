@@ -6,7 +6,7 @@
     border-radius: var(--large-radius);
     padding: 1em;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    @media screen and (min-width: 1080px) {
+    @media screen and (min-width: 1281px) {
         width : 70vw;
         padding: 2em;
 
@@ -84,8 +84,12 @@
 }
 
 .sectionAbout p {
-    @media screen and (min-width: 1080px) {
+    @media screen and (min-width: 1281px) {
         width: 30vw;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+        width: 50vw;
+
     }
 }
 
