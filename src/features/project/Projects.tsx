@@ -16,7 +16,7 @@ export default function Projects() {
     const {titles} = data
     const {project} = data
 
-    const typeOfProject = [...new Set(project.map((d)=> d.type))]
+    const typeOfProject = [...new Set(project.map((d)=> d.filter))]
 
     if(filter == "all"){
         setFilter("")
@@ -34,7 +34,7 @@ export default function Projects() {
 
             <article className={styles.sectionProject}>
                 {project
-                    .filter((d)=> d.type.includes(filter))
+                    .filter((d)=> d.filter.includes(filter))
                     .map((d)=> (<CardProject key ={d.id} dataProject = {d} />
                 ))}
 
