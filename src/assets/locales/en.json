@@ -70,7 +70,9 @@
     "admin" : "Admin",
     "techno" : "Technologies used",
     "technoPage" :"My Technos...",
-    "filterButton" : "All project"
+    "filterButton" : "All project",
+    "more" : "Show more",
+    "less" : "Show less"
   },
   "project" : [
     {
@@ -80,7 +82,7 @@
       "image" : "/images/project/enclos_v2.png",
       "type" : "Professional project",
       "status" : "In progress",
-      "synopsis" : "Showcase website for a professional theater company",
+      "synopsis" : "Website for a professional theater company",
       "project": "L’Enclos is a theatre company that I chair. It already had a functional website built with WordPress. While a redesign wasn’t strictly necessary, I decided to rebuild the site from scratch using Next.js to modernize the interface, improve performance, and simplify maintenance. I also migrated and structured the existing content to ensure continuity while enhancing the user experience.",
       "imageProject" : "/images/project/enclos/project.png",
       "ui" : "A wireframe was created to present the overall page layout and the arrangement of various information to the company. The company provided me with their logo, the images to be used, as well as the style guide. The CSS is managed with modules, and animations were added using Framer Motion and Slick Carousel.",
@@ -100,7 +102,7 @@
       "image" : "/images/project/glamping.png",
       "type" : "Professional project",
       "status" : "In progress",
-      "synopsis" : "Showcase website for camping",
+      "synopsis" : "Website for camping",
       "project" : "This project was initially completed at the end of my training using React and was later revisited as my first project with Next.js. The goal was to create a site with enough perspective to better understand client expectations and needs, with the potential to commercialize the project. Although the site remains basic, it provides a clear idea of what the final outcome could look like.",
       "imageProject" : "/images/project/glamping/project.png",
       "ui" : "As with every project, I started by creating a wireframe to guide my work. I studied common practices among camping chains to maintain the familiar cues and styles typical of vacation sites, then developed my graphic charter.",
@@ -257,7 +259,8 @@
   "about": {
     "title": "About me",
     "parcours": "Carreer",
-    "parcoursText" : "I hold a Master’s degree in STAPS education and initially focused my career on animation and management within the sports and leisure sector. Early on, my passion for travel led me to discover the outdoor hospitality industry—a field where people, organization, and hands-on experience are central. This path took me away from Northern France to fully commit to long seasonal work, eventually progressing to strategic roles. I held various leadership positions within a national group of 80 campsites, ranging from project manager to director of sites employing up to 80 staff members.\n\nDriven by a desire for renewal and skill development, I transitioned into web development. After completing an intensive training at Wild Code School, I earned the professional title of Web and Mobile Web Developer (RNCP level 5). Today, I design modern applications by combining technical rigor, organizational skills, and user-centered sensitivity—qualities shaped throughout my journey",
+    "parcoursText" : "After a first career in the tourism and leisure industry, I retrained as a web developer to combine my appetite for learning, problem-solving, and well-crafted digital products.",
+    "fullText" : "My initial career, rooted in team management, field operations, and solving real-world challenges, instilled in me a strong results-driven mindset, adaptability, and autonomy. For nearly ten years, I held leadership positions within a group of 80 campsites, eventually managing teams of over 80 people. Driven by a long-standing interest in tech, I decided to pivot into web development and joined Wild Code School, where I earned a diploma as a Web and Mobile Developer. nSince then, I’ve been focusing on modern JavaScript stacks, with a strong preference for React, Next.js, and TailwindCSS on the frontend, and Node.js, Express, and SQL/PostgreSQL on the backend. My goal: to contribute to meaningful and well-designed projects where I can bring both technical precision and product sensitivity to the table.",
     "lectureTitle": "Reading",
     "bookOne": "Clean code",
     "bookTwo": "The Power of Now",

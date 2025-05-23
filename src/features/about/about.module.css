@@ -97,7 +97,7 @@
     background-color: var(--blue-nuance);
     padding: 2em;
     border-radius: var(--large-radius);
-    color: var(--white-platinium);
+    color: var(--white-pure);
     letter-spacing: 0.1em;
     display: flex;
     flex-direction: column;
@@ -108,5 +108,17 @@
     position: absolute;
     right: 1vw;
     top: 1vh;
+
+}
+
+.buttonCarreer{
+
+    background-color: var(--blue-nuance);
+    border: none;
+    color: var(--yellow-school-bus);
+    font-family: var(--title-font) sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+    width:fit-content;
 
 }

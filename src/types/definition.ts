@@ -24,6 +24,7 @@ export type AboutProps = {
     title: string;
    parcours : string;
    parcoursText: string;
+   fullText: string;
     lectureTitle: string;
     bookOne: string;
     bookTwo: string;
@@ -58,6 +59,8 @@ export type TitlesProps = {
     techno : string;
     technoPage : string;
     filterButton : string;
+    more: string;
+    less : string;
 }
 
 export type TechProps = {
