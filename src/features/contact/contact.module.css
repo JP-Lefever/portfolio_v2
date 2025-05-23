@@ -6,7 +6,7 @@
     background-color: var(--grey-davy);
     border-radius: var(--large-radius);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         width : 70vw;
         padding: 2em;
 
@@ -20,7 +20,7 @@
     padding-bottom: 1em;
     border-bottom: 2px solid var(--white-platinium);
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         letter-spacing: 0.1em;
         font-size: var(--title-size);
 
@@ -32,7 +32,7 @@
     flex-direction: column;
     margin: 2em 0;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -43,13 +43,13 @@
 
 .article section{
     background-color: var(--blue-nuance);
-    padding: 1em;
+    padding: 0.5em;
     border-radius: var(--large-radius);
     margin: auto;
     width: 80vw;
     align-items: center;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding: 2em;
         width: 30vw;
         margin: 0;
@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: row;
    justify-content: center;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         justify-content: left;
         padding: 2em;
         width: 30vw;
@@ -73,7 +73,7 @@
     letter-spacing: 0.1em;
     padding-bottom: 0.5em;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding-bottom: 0;
     }
 }
@@ -87,7 +87,7 @@
     letter-spacing: 0.1em;
     text-align: center;
     display: block;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         text-align: left;
     }
 

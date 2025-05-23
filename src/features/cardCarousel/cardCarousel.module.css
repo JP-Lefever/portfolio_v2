@@ -7,7 +7,7 @@
     height: 70vh;
     width: 90vw;
     position: relative;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
    height: 55vh;
     width: 18vw;
@@ -35,7 +35,7 @@
     justify-content: space-between;
     height: 71vh;
     padding: 1vh 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         height: 56vh;
 
     }
@@ -47,7 +47,7 @@
     width: 90vw;
     padding: 0 1vw;
     align-items: center;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         width: 18vw;
 
     }
@@ -61,7 +61,7 @@
     border-bottom-right-radius: var(--large-radius);
     min-height: 25vh;
     position: relative;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding: 4vh 0.5vw;
 
     }
@@ -95,7 +95,7 @@
     background-color: var(--black-night);
     padding: 0.2vh 1.2vw;
     color: var(--white-platinium);
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding: 0.2vh 0.3vw;
 
     }

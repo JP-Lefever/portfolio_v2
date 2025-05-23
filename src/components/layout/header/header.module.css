@@ -11,7 +11,7 @@
     position : relative;
     overflow: hidden;
     padding : 2vh 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         background-position: center left;
         background-size: 80vh;
         height : 90vh;
@@ -36,7 +36,7 @@
     letter-spacing: var(--letter-spacing);
     text-align: center;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         text-align: left;
         margin-left: 25vw;
     }

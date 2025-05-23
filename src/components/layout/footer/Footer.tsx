@@ -17,8 +17,6 @@ export default function Footer() {
         <article>
         <p>Image from<a href={"https://www.pexels.com/fr-fr/"} target={"_blank"} rel={"noreferrer"}> Pexels</a></p>
         <p>Icons from<a href={"https://simpleicons.org/"} target={"_blank"} rel={"noreferrer"}> Simple Icons</a></p>
-        <p>Animation with<a href={"https://motion.dev/"} target={"_blank"} rel={"noreferrer"}> Framer-Motion</a></p>
-        <p>Carousel with<a href={"https://swiperjs.com/get-started"} target={"_blank"} rel={"noreferrer"}> Swiperjs</a></p>
         </article>
 
     </section>

@@ -5,7 +5,7 @@
     background-color: var(--grey-davy);
     border-radius: var(--large-radius);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         width : 70vw;
         padding: 2em;
 
@@ -15,7 +15,7 @@
 .articleHead{
     margin-bottom: 2em;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
     margin-bottom: 4em;
     }
@@ -26,7 +26,7 @@
     width: 90vw;
     height: 30vh;
     margin: auto;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         width: 65vw;
         height: 40vh;
 
@@ -64,7 +64,7 @@
     flex-direction: column;
     margin-bottom: 4em;
     padding: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -79,7 +79,7 @@
     border-radius: var(--large-radius);
     margin: auto;
     width: 80vw;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding: 2em;
         width: 48vw;
         margin: 0;
@@ -91,7 +91,7 @@
     width: 70vw;
     height: 30vh;
     margin-bottom: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
         width: 45vw;
         height: 50vh;
@@ -110,7 +110,7 @@
     letter-spacing: 0.1em;
     padding-bottom: 0.5em;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding-bottom: 0;
     }
 }
@@ -126,7 +126,7 @@
     flex-direction: column;
     margin-bottom: 4em;
     padding: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -139,7 +139,7 @@
     width: 70vw;
     height: 30vh;
     margin: 0 auto 1em auto;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
     width: 45vw;
     height: 50vh;
     margin-bottom: 1em;
@@ -156,7 +156,7 @@
 .articleAdmin{
     margin-bottom: 4em;
     padding: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
        margin-bottom: 4em;
        padding : 0;
     }
@@ -166,7 +166,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1em;
@@ -178,7 +178,7 @@
     position: relative;
     width: 65vw;
     height: 30vh;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
         width: 25vw;
         height: 30vh;
@@ -200,7 +200,7 @@
 }
 .articleTech{
     padding: 1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding : 0;
     }
 }
@@ -209,7 +209,7 @@
     flex-direction: column;
     gap: 1em;
     margin: 1em 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 1em;

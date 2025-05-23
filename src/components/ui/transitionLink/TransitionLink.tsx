@@ -28,7 +28,7 @@ export const TransitionLinks= ({children, href, className, ...props} : Transitio
         router.push(href)
 
         await sleep(500)
-
+        scrollTo(0,0)
         body?.classList.remove("page-transition")
     }
 

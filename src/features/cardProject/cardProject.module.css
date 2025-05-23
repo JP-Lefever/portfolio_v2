@@ -5,6 +5,7 @@
     min-height: 70vh;
     cursor:pointer;
     text-decoration: none;
+
 }
 
 .figure {
@@ -12,11 +13,12 @@
     width: 80vw;
     height: 60vh;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
         width: 20vw;
         height: 50vh;
     }
+
 }
 
 .image {
@@ -33,7 +35,7 @@
     width:79vw;
     padding : 1vh 1vw;
     align-items: center;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
     width:20vw;
 
@@ -46,7 +48,7 @@
     background-color: var(--black-night);
     padding: 0.2vh 1vw;
     color: var(--white-platinium);
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
         padding: 0.2vh 0.3vw;
 
     }
@@ -82,7 +84,7 @@
     padding : 0.5em 1em;
     color: var(--white-platinium);
     width: 80vw;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
     width: 19vw;
     }
 
@@ -91,7 +93,7 @@
     font-size: 2em;
     letter-spacing: 0.1em;
     width: 78vw;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
     width: 20vw;
     }
@@ -102,7 +104,7 @@
     font-size: 1.5em;
     letter-spacing: 0.1em;
     width: 80vw;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1080px) {
 
         width: 20vw;
 
