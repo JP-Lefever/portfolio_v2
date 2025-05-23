@@ -9,7 +9,10 @@ export default function ProjectsPage() {
     return (<>
 
         <PageTransition>
+
+
                 <Projects  />
+
         </PageTransition>
 
 

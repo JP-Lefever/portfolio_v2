@@ -5,6 +5,7 @@ import Image from "next/image";
 import {CircleArrowRight} from "lucide-react";
 
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
+import {ScrollInView} from "@/components/ui/animation/Animation";
 
 export default function CardProject({dataProject}: {dataProject: ProjectProps}) {
 
@@ -15,6 +16,7 @@ export default function CardProject({dataProject}: {dataProject: ProjectProps}) 
 
 
             <TransitionLinks href={`/projects/${slug}`} className={styles.sectionCard}>
+                <ScrollInView>
                 <article>
                     <figure className={styles.figure}>
                         <Image className={styles.image} src={image} alt={name} fill={true} />
@@ -29,7 +31,7 @@ export default function CardProject({dataProject}: {dataProject: ProjectProps}) 
                         <h2 className={styles.h2}>{name}</h2>
                         <p className={styles.syno}>{synopsis}</p>
                     </article>
-
+                </ScrollInView>
             </TransitionLinks>
         </>
     )
