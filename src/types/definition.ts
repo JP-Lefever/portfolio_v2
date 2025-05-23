@@ -3,6 +3,7 @@ export type ProjectProps = {
     name: string;
     slug: string;
     image: string;
+    filter:string;
     type: string;
     status: string;
     synopsis: string;
@@ -61,6 +62,7 @@ export type TitlesProps = {
     filterButton : string;
     more: string;
     less : string;
+
 }
 
 export type TechProps = {
