@@ -36,7 +36,7 @@ export default function Navbar() {
                 <ul className={styles.ul}>
                             {navbar.map((d) => (
                                 <li key={d.id} className={styles.li}>
-                                    <TransitionLinks className={styles.link} href={d.link}>{d.name}</TransitionLinks>
+                                    <TransitionLinks onClick={handleClickOpenMenu} className={styles.link} href={d.link}>{d.name}</TransitionLinks>
                                 </li>
                             ))}
                 </ul>
