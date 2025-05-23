@@ -6,6 +6,7 @@ import {CircleX} from "lucide-react";
 import {TransitionLinks} from "@/components/ui/transitionLink/TransitionLink";
 import {ButtonSite} from "@/components/ui/buttons/Buttons";
 import {useLanguage} from "@/context/LangContext";
+import { ScrollInView } from "@/components/ui/animation/Animation";
 
 export default function ProjectDetails({slug} : {slug: string}) {
 
@@ -23,7 +24,7 @@ export default function ProjectDetails({slug} : {slug: string}) {
 
                 <section key={d.id} className={styles.sectionProject}>
                     <TransitionLinks className={styles.link} href={"/projects"} ><CircleX size={48} color={"#DDE2E4"}/></TransitionLinks>
-
+                <ScrollInView>
                     <article className={styles.articleHead}>
                         <figure className={styles.figureHead}>
                             <Image className={styles.imageHead} src={d.image} alt={d.name} fill={true}/>
@@ -37,7 +38,8 @@ export default function ProjectDetails({slug} : {slug: string}) {
                         <ButtonSite web={d.web} git={d.git}/>
                         </section>
                     </article>
-
+                </ScrollInView>
+                    <ScrollInView>
                     <article className={styles.articleProject}>
                         <h3 className={styles.h3}>{titles.projectDetail}</h3>
                         <section className={styles.sectionInfo}>
@@ -47,7 +49,8 @@ export default function ProjectDetails({slug} : {slug: string}) {
                         <p className={styles.projectInfo}>{d.project}</p>
                         </section>
                     </article>
-
+                    </ScrollInView>
+                    <ScrollInView>
                     {d.ui &&
                     <article className={styles.articleUi}>
                         <h3 className={styles.h3}>{titles.ui}</h3>
@@ -61,7 +64,8 @@ export default function ProjectDetails({slug} : {slug: string}) {
                         </section>
                     </article>
                     }
-
+                    </ScrollInView>
+                    <ScrollInView>
                     {d.admin &&
                     <article className={styles.articleAdmin}>
                         <h3 className={styles.h3}>{titles.admin}</h3>
@@ -94,7 +98,8 @@ export default function ProjectDetails({slug} : {slug: string}) {
 
                     </article>
                     }
-
+                    </ScrollInView>
+                <ScrollInView>
                     <article className={styles.articleTech}>
                         <h3 className={styles.h3}>{titles.techno}</h3>
                         <section className={styles.sectionTech}>
@@ -104,7 +109,7 @@ export default function ProjectDetails({slug} : {slug: string}) {
                         </section>
 
                     </article>
-
+                </ScrollInView>
                 </section>
             ))
 
