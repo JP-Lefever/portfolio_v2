@@ -70,7 +70,9 @@
     "admin" : "Admin",
     "techno" : "Technologies utilisées",
     "technoPage" :"Mes Technos...",
-    "filterButton" : "Tous les projets"
+    "filterButton" : "Tous les projets",
+    "more" : "Voir plus",
+    "less" : "Voir moins"
   },
   "project" : [
     {
@@ -80,7 +82,7 @@
       "image" : "/images/project/enclos_v2.png",
       "type" : "projet pro",
       "status" : "Projet en cours",
-      "synopsis" : "Site vitrine pour compagnie de théâtre professionnelle",
+      "synopsis" : "Site web pour compagnie de théâtre professionnelle",
       "project": "La compagnie L’Enclos, que je préside, possédait déjà un site fonctionnel développé sous WordPress. Bien qu’une refonte n’était pas indispensable, j’ai choisi de reconstruire le site from scratch en Next.js afin d’en moderniser l’interface, d’en optimiser les performances et d’en faciliter la maintenance. J’ai également migré et structuré les contenus existants pour garantir la continuité tout en améliorant l’expérience utilisateur.",
       "imageProject" : "/images/project/enclos/project.png",
       "ui" : "Un wireframe a été conçu afin de présenter à la compagnie la structure générale des pages et la disposition des différentes informations. La compagnie m’a fourni son logo, les images à utiliser, ainsi que la charte graphique. Le CSS est organisé via des modules, et des animations ont été intégrées grâce à Framer Motion et Slick Carousel. ",
@@ -100,7 +102,7 @@
       "image" : "/images/project/glamping.png",
       "type" : "projet pro",
       "status" : "Projet en cours",
-      "synopsis" : "Site vitrine pour hôtellerie de plein air",
+      "synopsis" : "Site web pour hôtellerie de plein air",
       "project" : " Initialement développé en React en fin de formation, ce projet a été refondu avec Next.js pour en faire ma première réalisation professionnelle sur ce framework. L'objectif était de concevoir une solution web propre, efficace et potentiellement commercialisable, en intégrant une logique orientée client, d'où le choix d'un sujet que je maitrise bien.  Bien qu'encore en cours d'évolution, ce projet illustre l'orientation de la version finale.",
       "imageProject" : "/images/project/glamping/project.png",
       "ui" : "Comme pour chaque projet, j’ai débuté par la création d’un wireframe pour orienter mon travail. J’ai analysé les pratiques courantes des chaînes de campings afin de conserver les repères et les styles propres aux sites de vacances, puis j’ai élaboré ma charte graphique.",
@@ -257,7 +259,8 @@
   "about": {
     "title": "A propos de moi...",
     "parcours": "parcours",
-    "parcoursText" : "Issu d'une formation universitaire en enseignement STAPS, jusqu'au niveau Master, j’ai d’abord orienté ma carrière vers le secteur de l’animation et de la gestion dans le milieu du sport et des loisirs. Très tôt, le goût du voyage m’a conduit à découvrir le monde de l’hôtellerie de plein air, un environnement où l’humain, l’organisation et le sens du terrain sont au cœur des enjeux.Ce chemin m’a amené à quitter le Nord de la France pour m’investir pleinement dans des saisons longues, jusqu’à évoluer vers des fonctions stratégiques. J’ai ainsi occupé plusieurs postes à responsabilités au sein d’un groupe national de 80 campings, allant de chargé de mission à la direction d’établissements accueillant jusqu’à 80 collaborateurs. Porté par un désir de renouveau et d'apprentissage, j’ai entrepris une reconversion vers les métiers du développement web. Après une formation intensive à la Wild Code School, j’ai obtenu le titre professionnel de Développeur Web et Web Mobile (niveau RNCP 5). Aujourd’hui, j'essaie de concevoir des applications modernes, alliant rigueur technique, sens de l’organisation et sensibilité utilisateur acquise tout au long de mon parcours.",
+    "parcoursText" : "Après plusieurs années à piloter des équipes et des projets dans le secteur du tourisme et des loisirs, j’ai choisi de me reconvertir vers le développement web. Diplômé d’une formation intensive, je conçois aujourd’hui des applications modernes en tant que développeur full stack, avec une appétence pour React, TypeScript, Node.js et PostgreSQL.",
+    "fullText" : "Mon parcours initial, ancré dans la gestion humaine, l’organisation de terrain et la résolution de problématiques concrètes, m’a forgé une solide culture du résultat, de l’adaptabilité et de l’autonomie. Pendant près de dix ans, j’ai occupé des postes à responsabilités au sein d’un groupe de 80 campings, jusqu’à diriger des établissements regroupant plus de 80 collaborateurs. Animé par l’envie de me tourner vers un domaine qui m'attire depuis longtemps, j’ai entamé une reconversion dans le développement web en intégrant la Wild Code School, où j’ai obtenu le titre de Développeur Web et Web Mobile. Depuis, je me spécialise sur des stacks JavaScript modernes, avec une expertise en React, Next.js et TailwindCSS côté front, et Node.js, Express, SQL/PostgreSQL côté back. Mon objectif : concevoir des applications solides et bien pensées, en conjuguant rigueur technique, sens de l’expérience utilisateur et vision produit.",
     "lectureTitle": "Lecture",
     "bookOne": "Coder proprement",
     "bookTwo": "Le pouvoir du moment présent",

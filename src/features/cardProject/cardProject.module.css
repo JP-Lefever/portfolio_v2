@@ -2,7 +2,7 @@
     position: relative;
     width : fit-content;
     margin : auto;
-    min-height: 60vh;
+    min-height: 70vh;
     cursor:pointer;
     text-decoration: none;
     @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -56,8 +56,9 @@
 .type {
     border-radius: var(--small-radius);
     background-color: var(--black-night);
+    font-family: var(--title-font), sans-serif;
     padding: 0.2vh 1vw;
-    color: var(--white-platinium);
+    color: var(--white-pure);
     @media screen and (min-width: 1080px) {
         padding: 0.2vh 0.3vw;
 
@@ -92,7 +93,8 @@
 
 .sectionInfo{
     padding : 0.5em 1em;
-    color: var(--white-platinium);
+    color: var(--white-pure);
+    font-weight: bold;
     width: 80vw;
     @media screen and (min-width: 1080px) {
     width: 19vw;

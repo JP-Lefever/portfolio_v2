@@ -1,20 +1,16 @@
 
-import {Oswald, Bebas_Neue, Anton} from "next/font/google";
+import {Oswald, Bebas_Neue} from "next/font/google";
 
 
-export const titleFont = Anton({
+
+export const titleFont = Bebas_Neue({
+    weight : "400",
+    subsets:["latin"],
     variable:"--title-font",
-    weight : "400",
-    subsets:["latin"],
 })
 
-export const paragraphFont = Bebas_Neue({
-    weight : "400",
-    subsets:["latin"],
-})
-
-export const paragraphFont2 = Oswald({
-    variable:"--para-font",
+export const paragraphFont = Oswald({
+    variable:"--paragraph-font",
     weight : "200",
     subsets:["latin"],
 })

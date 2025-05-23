@@ -54,6 +54,8 @@
     width: 90vw;
     padding: 0 1vw;
     align-items: center;
+    font-family: var(--title-font), sans-serif;
+    color: var(--white-pure);
     @media screen and (min-width: 1080px) {
         width: 25vw;
 

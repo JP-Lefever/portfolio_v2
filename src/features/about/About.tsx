@@ -4,11 +4,17 @@ import {CircleX} from "lucide-react";
 import {TransitionLinks2} from "@/components/ui/transitionLink/TransitionLink";
 import Image from "next/image";
 import {useLanguage} from "@/context/LangContext";
+import {useState} from "react";
 
 export default function About(){
 
     const {data} = useLanguage();
     const {about} = data
+    const {titles} =data
+
+    const [fullText, setFullText] = useState(false);
+
+    const handleChange = () => setFullText(!fullText)
 
     return (<>
     <section className={`${styles.sectionAbout} js-section`}>
@@ -26,6 +32,10 @@ export default function About(){
             <section>
 
             <p>{about.parcoursText}</p>
+                {fullText &&
+                <p>{about.fullText}</p>
+                }
+                <button className={styles.buttonCarreer} type={"button"} onClick={handleChange}>{fullText ? `${titles.less}` : `${titles.more}`}</button>
             </section>
         </article>
         <article>

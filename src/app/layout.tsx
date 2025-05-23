@@ -1,4 +1,4 @@
-import { titleFont, paragraphFont, paragraphFont2} from "@/components/ui/fonts";
+import { titleFont,  paragraphFont} from "@/components/ui/fonts";
 
 import "./globals.css";
 import React from "react";
@@ -18,8 +18,8 @@ export default function RootLayout({
 
 
   return (
-    <html lang="en" className={`${paragraphFont2.variable} ${titleFont.variable}`}>
-      <body className={`${paragraphFont.className}`}>
+    <html lang="fr" >
+      <body className={`${titleFont.variable} ${paragraphFont.variable}`}>
       <LanguageProvider>
         <NavBar />
         {children}

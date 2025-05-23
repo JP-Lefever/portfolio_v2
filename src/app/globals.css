@@ -4,12 +4,7 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-body{
-  overflow-x: hidden;
-  background-color: var(--blue-coin);
-  position: relative;
-  transition-property: opacity, background-color,filter,transform;
-}
+
 
 .page-transition{
   opacity: 0;
@@ -47,4 +42,17 @@ body{
   --letter-spacing : 0.2em;
   --title-responsive : 3em;
   --title-size : 4em;
+
+}
+body{
+  overflow-x: hidden;
+  background-color: var(--blue-coin);
+  position: relative;
+  transition-property: opacity, background-color,filter,transform;
+  font-family: var(--paragraph-font), sans-serif;
+}
+
+
+h1,h2,h3{
+  font-family: var(--title-font), sans-serif;
 }
