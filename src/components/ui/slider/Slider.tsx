@@ -24,14 +24,20 @@ export const SliderProject = ()=>{
             modules={[Autoplay]}
             autoplay={{delay: 0,  pauseOnMouseEnter: true}}
             breakpoints={{
-                    1080: {
-                        slidesPerView: 6,
-                        spaceBetween: 260,
-                    },
                 768: {
                     slidesPerView: 1.2,
                     spaceBetween: 120,
-                }
+                },
+                1080: {
+                    slidesPerView: 4,
+                    spaceBetween:120,
+                },
+                1480: {
+                    slidesPerView: 6,
+                    spaceBetween:260,
+                },
+
+
                 }}
         >
 
