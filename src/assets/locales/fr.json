@@ -78,6 +78,27 @@
   },
   "project" : [
     {
+      "id" : 12,
+      "name" : "Entente Fons Fourmagnac Camburat Assier",
+      "slug" : "EFFCA",
+      "image" : "/images/project/EFFCA.png",
+      "filter" : "projets pro",
+      "type" : "projet pro",
+      "status" : "Projet en cours",
+      "synopsis" : "Site web pour le club de football du village de Fons",
+      "project": "Le club EFFCA est une association sportive regroupant les villages environnants. Véritable acteur de la vie locale, le club souhaite renforcer sa visibilité et pérenniser son image. C’est dans cette optique qu’ils m’ont confié la création de leur tout premier site web. Actuellement en division D3, le club nourrit l’ambition de progresser dès la saison prochaine.",
+      "imageProject" : "/images/project/effca/project.png",
+      "ui" : "Pour la conception de l’interface, j’ai débuté par la création d’un wireframe détaillé afin de structurer l’organisation générale du site et d’assurer une navigation intuitive. Ce prototype a été validé en collaboration avec le club, pour bien répondre à leurs besoins spécifiques.\nEnsuite, je me suis appuyé sur la charte graphique du club pour définir une identité visuelle cohérente, en choisissant des couleurs, typographies et éléments graphiques reflétant leur image.\nTechniquement, le site a été développé en responsive design pour garantir une expérience optimale sur tous types d’écrans. Ce site a été réalisé avec Next.JS et module CSS",
+      "imageUi" : "/images/project/effca/ui.png",
+      "admin" : "La base de données est gérée avec Railway Postgres, en utilisant Prisma comme ORM pour faciliter les interactions entre l’application et la base.\nL’interface d’administration permet de gérer l’ensemble des contenus du site de manière simple et efficace : ajout et modification des membres, gestion de leurs postes et fonctions, publication des actualités, ainsi que l’ajout et la mise à jour des partenaires.\nCette interface est pensée pour être intuitive, sécurisée, et permettre au club de maintenir facilement leur site sans connaissances techniques.",
+      "imageAdmin": "/images/project/effca/admin.png",
+      "imageAdmin1": "/images/project/effca/admin1.png",
+      "imageAdmin2": "/images/project/effca/admin2.png",
+      "techno" : ["Next.js", "TypeScript", "Module CSS", "Railway", "Prisma", "Widget score n'co", "Swiper carousel", "NodeMailer", "Cloudinary", "Déploiement : Vercel"],
+      "web" : "https://effca.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/effca"
+    },
+    {
       "id" : 1,
       "name" : "La Compagnie L'Enclos",
       "slug" : "compagnie-l-enclos",
