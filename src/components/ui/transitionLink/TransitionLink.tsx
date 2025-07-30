@@ -31,8 +31,9 @@ export const TransitionLinks= ({children, href, className, closeMenuAction, ...p
         await sleep(500)
 
         router.push(href)
-        closeMenuAction && closeMenuAction();
-
+        if (closeMenuAction){
+            closeMenuAction();
+        }
 
         await sleep(500)
 
