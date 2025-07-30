@@ -1,6 +1,6 @@
 "use client"
 import Link, {LinkProps} from "next/link";
-import React, {ReactNode} from "react";
+import React, {ReactNode, useState} from "react";
 import {useRouter} from "next/navigation";
 
 
@@ -8,11 +8,16 @@ import {useRouter} from "next/navigation";
     children: ReactNode;
     href: string;
     className?: string;
+    closeMenuAction?: () => void;
 }
 
-export const TransitionLinks= ({children, href, className, ...props} : TransitionLinkProps)=>{
+export const TransitionLinks= ({children, href, className, closeMenuAction, ...props} : TransitionLinkProps)=>{
 
     const router = useRouter()
+
+
+
+
     function sleep(ms: number) : Promise<void> {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
@@ -26,6 +31,8 @@ export const TransitionLinks= ({children, href, className, ...props} : Transitio
         await sleep(500)
 
         router.push(href)
+        closeMenuAction && closeMenuAction();
+
 
         await sleep(500)
 
