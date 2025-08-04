@@ -74,7 +74,6 @@ export type TechProps = {
 export type HeaderProps = {
     title: string;
     subTitle: string;
-    exp: string;
 };
 
 export type NavProps = {

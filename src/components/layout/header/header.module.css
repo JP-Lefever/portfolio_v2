@@ -58,20 +58,9 @@
     white-space: nowrap;
     animation: typing 3s steps(40, end) forwards, blink 0.7s step-end infinite;
     animation-delay: 3s;
-
+    color : var(--yellow-school-bus)
 }
 
-.subTitle {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3s steps(40,end) forwards, blink 0.7s step-end infinite;
-    font-size: 0.5em;
-    color: var(--yellow-school-bus);
-    display: block;
-    width: 0;
-    animation-delay:  6s;
-
-}
 
 .particle{
     position : absolute;
