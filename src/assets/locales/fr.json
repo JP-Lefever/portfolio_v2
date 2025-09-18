@@ -77,6 +77,36 @@
   },
   "project" : [
     {
+      "id" : 14,
+      "name" : "Camping template",
+      "slug" : "camping",
+      "image" : "/images/project/camping/camping.png",
+      "filter" : "projets pro",
+      "type" : "projet pro",
+      "status" : "Projet en cours",
+      "synopsis" : "Site vitrine pour camping/village vacances",
+      "project" : "En m’appuyant sur mon expérience passée de directeur de camping et sur mes compétences actuelles en développement web, j’ai conçu ce site vitrine comme une template spécialement pensée pour les campings. L’objectif est de mettre à profit ma double expertise — métier et technique — afin de proposer des solutions digitales sur mesure, proches des besoins réels des exploitants, pour renforcer leur visibilité et l’engagement de leurs clients. ",
+      "imageProject" : "/images/project/camping/project.png",
+      "techno" : ["Nest.js", "TS", "Modules CSS", "swiper", "Déploiement : vercel"],
+      "web" : "https://camping-seven-mu.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/camping"
+    },
+    {
+      "id" : 13,
+      "name" : "Loopi Web",
+      "slug" : "dev",
+      "image" : "/images/project/dev/dev.png",
+      "filter" : "projets pro",
+      "type" : "projet pro",
+      "status" : "Projet en cours",
+      "synopsis" : "Site vitrine réalisé pour entreprise dev web",
+      "project" : "Après avoir créé ma micro-entreprise, j’ai développé mon propre site vitrine afin de promouvoir mon activité. L’objectif était de concevoir une identité visuelle forte pour me démarquer localement, dans un contexte où la majorité des développeurs travaillent avec des CMS. Ce projet met en avant l’atout du développement sur mesure : offrir à chaque client un site adapté spécifiquement à ses besoins et à ceux de son activité.",
+      "imageProject" : "/images/project/dev/project.png",
+      "techno" : ["Nest.js", "TS", "Modules CSS", "GSAP", "Framer-Motion", "Déploiement : vercel"],
+      "web" : "https://web-and-moka.vercel.app/",
+      "git" : "https://github.com/JP-Lefever/web-and-moka"
+    },
+    {
       "id" : 12,
       "name" : "Entente Fons Fourmagnac Camburat Assier",
       "slug" : "EFFCA",
@@ -123,9 +153,9 @@
       "name" : "Glamping Spot",
       "slug" : "glamping",
       "image" : "/images/project/glamping.png",
-      "filter" : "projets pro",
-      "type" : "projet pro",
-      "status" : "Projet en cours",
+      "filter" : "projets de formation",
+      "type" : "projets formation",
+      "status" : "Projet terminé",
       "synopsis" : "Site web pour hôtellerie de plein air",
       "project" : " Initialement développé en React en fin de formation, ce projet a été refondu avec Next.js pour en faire ma première réalisation professionnelle sur ce framework. L'objectif était de concevoir une solution web propre, efficace et potentiellement commercialisable, en intégrant une logique orientée client, d'où le choix d'un sujet que je maitrise bien.  Bien qu'encore en cours d'évolution, ce projet illustre l'orientation de la version finale.",
       "imageProject" : "/images/project/glamping/project.png",
@@ -288,6 +318,7 @@
       "web" : "https://jp-lefever.github.io/L-enclos_V1/l_histoire.html",
       "git" : "https://github.com/JP-Lefever/L-enclos_V1"
     }
+
   ],
   "about": {
     "title": "A propos de moi...",
