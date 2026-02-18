@@ -18,6 +18,7 @@ export default function Projects() {
 
     const typeOfProject = [...new Set(project.map((d)=> d.filter))]
 
+
     if(filter == "all"){
         setFilter("")
     }
