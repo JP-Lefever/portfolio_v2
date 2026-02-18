@@ -46,6 +46,7 @@ export const ButtonSite = ({web, git} : {web : string, git:string})=>{
             {web !== "" &&
             <a  href={web} target="_blank" rel="noopener noreferrer"><Globe className={styles.web} size={48} color={"#ffffff"}/></a>
             }
+            {git !== "" &&
             <a  href={git} target="_blank" rel="noopener noreferrer">
                 <svg  xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
                      stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -55,6 +56,7 @@ export const ButtonSite = ({web, git} : {web : string, git:string})=>{
                     <path d="M9 18c-4.51 2-5-2-7-2"/>
                 </svg>
             </a>
+            }
         </section>
     </>)
 }
