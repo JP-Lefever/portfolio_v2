@@ -8,7 +8,7 @@
 }
 
 .sectionTech {
-    width : 90vw;
+    width : 80vw;
     margin : auto;
     border: 1px solid var(--grey-davy);
     @media screen and (min-width: 1080px) {
@@ -21,16 +21,16 @@
 }
 
 .articleTech{
+
     border: 1px solid var(--grey-davy);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh;
+    padding: 2vh;
     border-radius: var(--small-radius);
     background-color: var(--white-platinium);
     gap:1em;
     letter-spacing: 0.1em;
-
 }
 
 .h2{
@@ -53,6 +53,7 @@
 .image{
     width : 20vw;
     height : auto;
+    filter: grayscale(100%) brightness(0%);
     @media screen and (min-width: 768px) {
         width: 3vw;
         height: auto;
