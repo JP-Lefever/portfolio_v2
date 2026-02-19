@@ -5,9 +5,6 @@ export default function SocialLink() {
 
     return (
         <section className={styles.link}>
-            <a target="_blank" rel="noreferrer" href="https://x.com/LefR_dev">
-                <Image className={styles.twitter} src={"/images/twitter.png"} alt="twitter" width={48} height={48}/>
-            </a>
             <a
                 target="_blank"
                 rel="noreferrer"

@@ -22,6 +22,7 @@ export default function Contact(){
             <section>
                 <p>{contact.mail}</p>
                 <p>{contact.tel}</p>
+                <a className={styles.contact} href={"https://www.loopiweb.fr/contact"} target="_blank" rel="noopener noreferrer">Loopi Web</a>
             </section>
         </article>
         <article className={styles.article}>
