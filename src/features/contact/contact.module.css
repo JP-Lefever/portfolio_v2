@@ -99,3 +99,6 @@
     top: 1vh;
 
 }
+.article .contact {
+    color: var(--yellow-school-bus);
+}
