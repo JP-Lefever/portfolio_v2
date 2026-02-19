@@ -10,9 +10,10 @@ import {useLanguage} from "@/context/LangContext";
 export const SliderProject = ()=>{
 
     const {data} = useLanguage()
-    const {project} = data
+    const {project,titles} = data
 
     return (<>
+        <h2 className={styles.h2}>{titles.project}</h2>
 
         <Swiper
             className={styles.swiperProject}
