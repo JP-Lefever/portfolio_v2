@@ -27,14 +27,19 @@
       "image" : "/images/tech/react.png"
     },
     {
-      "id": 2,
-      "label" : "TypeScript",
-      "image" : "/images/tech/ts.png"
-    },
-    {
       "id": 3,
       "label" : "Next.js",
       "image" : "/images/tech/next.png"
+    },
+    {
+      "id": 15,
+      "label" : "Vite.js",
+      "image" :"/images/tech/Vite.js.png"
+    },
+    {
+      "id": 2,
+      "label" : "TypeScript",
+      "image" : "/images/tech/ts.png"
     },
     {
       "id": 4,
@@ -57,10 +62,52 @@
       "image" : "/images/tech/postgre.png"
     },
     {
+      "id": 11,
+      "label" : "JAVA",
+      "image" :"/images/tech/Java.png"
+    },
+    {
+      "id": 12,
+      "label" : "HTML",
+      "image" :"/images/tech/html5.png"
+    },
+    {
+      "id": 13,
+      "label" : "CSS",
+      "image" :"/images/tech/css.png"
+    },
+    {
+      "id": 16,
+      "label" : "Tailwind",
+      "image" :"/images/tech/tailwindcss.png"
+    },
+    {
       "id": 8,
       "label" : "Figma",
       "image" : "/images/tech/figma.png"
+    },
+    {
+      "id": 14,
+      "label" : "Git",
+      "image" :"/images/tech/git.png"
+    },
+    {
+      "id": 9,
+      "label" : "Airtable",
+      "image" :"/images/tech/airtable_bdd.png"
+    },
+    {
+      "id": 10,
+      "label" : "Make",
+      "image" :"/images/tech/make_auto.png"
+    },
+    {
+      "id": 17,
+      "label" : "Webflow",
+      "image" :"/images/tech/webflow.png"
     }
+
+
   ],
   "titles" : {
     "project" : "Réalisations",
