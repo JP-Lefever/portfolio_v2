@@ -13,19 +13,18 @@
     padding : 2vh 0;
     @media screen and (min-width: 1080px) {
         background-position: center left;
-        background-size: 80vh;
+        background-size: 70vh;
         height : 90vh;
-        align-items: center;
+
+        align-items : center;
     }
 }
 
 .typing {
-    animation: typing 3s steps(40,end) forwards, blink 0.7s step-end infinite;
-    overflow: hidden;
-    white-space: nowrap;
+
     font-size: var(--title-responsive);
     color: var(--white-pure);
-    width: 0;
+    width: 65vw;
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         font-size: 5em;
     }
@@ -47,17 +46,12 @@
     }
     @media screen and (min-width: 1281px) {
         text-align: left;
-        margin-left: 25vw;
+        margin-left: 30vw;
     }
 }
 
 .sub {
-    width: 0;
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3s steps(40, end) forwards, blink 0.7s step-end infinite;
-    animation-delay: 3s;
+
     color : var(--yellow-school-bus)
 }
 

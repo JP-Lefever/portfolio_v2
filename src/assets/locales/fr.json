@@ -17,8 +17,8 @@
     }
   ],
   "header" : {
-      "title" : "Developpeur web",
-      "subTitle" : "full stack"
+      "title" : "Dev web full stack",
+      "subTitle" : "Automatisation & low code"
   },
   "technology" : [
     {
@@ -389,8 +389,8 @@
   "about": {
     "title": "A propos de moi...",
     "parcours": "parcours",
-    "parcoursText" : "Après plusieurs années à piloter des équipes et des projets dans le secteur du tourisme et des loisirs, j’ai choisi de me reconvertir vers le développement web. Diplômé d’une formation intensive, je conçois aujourd’hui des applications modernes en tant que développeur full stack, avec une appétence pour React, TypeScript, Node.js et PostgreSQL.",
-    "fullText" : "Mon parcours initial, ancré dans la gestion humaine, l’organisation de terrain et la résolution de problématiques concrètes, m’a forgé une solide culture du résultat, de l’adaptabilité et de l’autonomie. Pendant près de dix ans, j’ai occupé des postes à responsabilités au sein d’un groupe de 80 campings, jusqu’à diriger des établissements regroupant plus de 80 collaborateurs. Animé par l’envie de me tourner vers un domaine qui m'attire depuis longtemps, j’ai entamé une reconversion dans le développement web en intégrant la Wild Code School, où j’ai obtenu le titre de Développeur Web et Web Mobile. Depuis, je me spécialise sur des stacks JavaScript modernes, avec une expertise en React, Next.js et TailwindCSS côté front, et Node.js, Express, SQL/PostgreSQL côté back. Mon objectif : concevoir des applications solides et bien pensées, en conjuguant rigueur technique, sens de l’expérience utilisateur et vision produit.",
+    "parcoursText" : "Après plusieurs années à piloter des équipes et des projets dans le secteur du tourisme et des loisirs, je me suis reconverti vers le développement web, motivé par l’envie de créer des applications concrètes et utiles. Diplômé de la Wild Code School, je conçois aujourd’hui des applications modernes en full stack, avec un focus sur React, TypeScript, Node.js, PostgreSQL, ainsi que sur les outils low-code et automatisation comme Make et Airtable.",
+    "fullText" : "Mon expérience en management et en organisation m’a permis de développer rigueur, autonomie et sens du résultat, tout en cultivant une approche centrée sur l’utilisateur et le produit. Je cherche aujourd’hui à mettre ces compétences au service d’une alternance orientée product building, automatisation et innovation, en conjuguant expertise technique, vision produit et expérience terrain.",
     "lectureTitle": "Lecture",
     "bookOne": "Coder proprement",
     "bookTwo": "Le pouvoir du moment présent",
