@@ -17,8 +17,8 @@
     }
   ],
   "header" : {
-    "title" : "Web Developer ",
-    "subTitle" : "full stack"
+    "title" : "Web Dev full stack ",
+    "subTitle" : "Automation & low code"
   },
   "technology" : [
     {
@@ -27,14 +27,19 @@
       "image" : "/images/tech/react.png"
     },
     {
-      "id": 2,
-      "label" : "TypeScript",
-      "image" : "/images/tech/ts.png"
-    },
-    {
       "id": 3,
       "label" : "Next.js",
       "image" : "/images/tech/next.png"
+    },
+    {
+      "id": 15,
+      "label" : "Vite.js",
+      "image" :"/images/tech/Vite.js.png"
+    },
+    {
+      "id": 2,
+      "label" : "TypeScript",
+      "image" : "/images/tech/ts.png"
     },
     {
       "id": 4,
@@ -57,10 +62,52 @@
       "image" : "/images/tech/postgre.png"
     },
     {
+      "id": 11,
+      "label" : "JAVA",
+      "image" :"/images/tech/Java.png"
+    },
+    {
+      "id": 12,
+      "label" : "HTML",
+      "image" :"/images/tech/html5.png"
+    },
+    {
+      "id": 13,
+      "label" : "CSS",
+      "image" :"/images/tech/css.png"
+    },
+    {
+      "id": 16,
+      "label" : "Tailwind",
+      "image" :"/images/tech/tailwindcss.png"
+    },
+    {
       "id": 8,
       "label" : "Figma",
       "image" : "/images/tech/figma.png"
+    },
+    {
+      "id": 14,
+      "label" : "Git",
+      "image" :"/images/tech/git.png"
+    },
+    {
+      "id": 9,
+      "label" : "Airtable",
+      "image" :"/images/tech/airtable_bdd.png"
+    },
+    {
+      "id": 10,
+      "label" : "Make",
+      "image" :"/images/tech/make_auto.png"
+    },
+    {
+      "id": 17,
+      "label" : "Webflow",
+      "image" :"/images/tech/webflow.png"
     }
+
+
   ],
   "titles" : {
     "project" : "Project",
@@ -75,6 +122,25 @@
 
   },
   "project" : [
+    {
+      "id": 15,
+      "name": "Customer Email Processing Automation",
+      "slug": "emails",
+      "image": "/images/project/mails/make.png",
+      "filter": "automation projects",
+      "type": "training project",
+      "status": "Ongoing Project",
+      "synopsis": "Automated process for handling emails using Make and Airtable",
+      "project": "As part of optimizing business processes, I designed an automation that transforms incoming emails into structured data usable in a CRM. By combining Make, OpenAI, and Airtable, the system analyzes, summarizes, and prioritizes each message before integrating it neatly into the database. The goal is to demonstrate how AI and automation can streamline information processing, reduce manual tasks, and improve sales tracking.",
+      "imageProject": "/images/project/mails/airtable.png",
+      "admin": "The automation relies on Make for workflow orchestration and Airtable for database management. The core of the project consists of automatically analyzing incoming emails via an AI agent, structuring key information (sender, priority, summary), and then integrating it neatly into the CRM. The admin side centralizes, organizes, and efficiently manages requests without manual processing.",
+      "imageAdmin": "/images/project/mails/make.png",
+      "imageAdmin1": "/images/project/mails/bdd.png",
+      "imageAdmin2": "/images/project/mails/airtable.png",
+      "techno": ["Gmail", "AI Agent", "Make", "Airtable"],
+      "web": "https://airtable.com/appcS94KrLI63bkxd/pagaS94DRXW0ZhWIx",
+      "git": ""
+    },
     {
       "id" : 14,
       "name" : "Camping template",
@@ -131,7 +197,7 @@
       "name" : "La Compagnie L'Enclos",
       "slug" : "compagnie-l-enclos",
       "image" : "/images/project/enclos_v2.png",
-      "filter" : "Professional project",
+      "filter" : "Professional projects",
       "type" : "Professional project",
       "status" : "In progress",
       "synopsis" : "Website for a professional theater company",
@@ -152,7 +218,7 @@
       "name" : "Glamping Spot",
       "slug" : "glamping",
       "image" : "/images/project/glamping.png",
-      "filter" : "Professional project",
+      "filter" : "Training web projects",
       "type" : "Professional project",
       "status" : "In progress",
       "synopsis" : "Website for camping",
@@ -173,7 +239,7 @@
       "name" : "Geocode",
       "slug" : "geocode",
       "image" : "/images/project/geocode.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "Geolocation platform for electric charging stations",
@@ -194,7 +260,7 @@
       "name" : "Carotaine",
       "slug" : "carotaine",
       "image" : "/images/project/carotaine.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "24-hour hackathon on the theme of apocalypse and kindness",
@@ -211,7 +277,7 @@
       "name" : "Boarder line",
       "slug" : "boarder-line",
       "image" : "/images/project/border_line.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "Platform for board game enthusiasts",
@@ -228,7 +294,7 @@
       "name" : "E-shop",
       "slug" : "e-shop",
       "image" : "/images/project/eShop.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "E-commerce site with filtering system and detailed product page",
@@ -245,7 +311,7 @@
       "name" : "Portfolio v1",
       "slug" : "portfolio-v1",
       "image" : "/images/project/portfolio_v1.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "First portfolio created",
@@ -262,7 +328,7 @@
       "name" : "All Star Games",
       "slug" : "all-star-games",
       "image" : "/images/project/all_game.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "Plateforme de vente de jeux de société",
@@ -277,7 +343,7 @@
       "name" : "ToDo list",
       "slug" : "todo-list",
       "image" : "/images/project/todo.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "To-Do list built with JavaScript and the DOM",
@@ -292,7 +358,7 @@
       "name" : "Un peu meilleur chaque jour",
       "slug" : "un-peu-meilleur-chaque-jour",
       "image" : "/images/project/meilleur.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "Website about economics, finance, and personal development",
@@ -307,7 +373,7 @@
       "name" : "L'enclos v1",
       "slug" : "compagnie-l-enclos-v1",
       "image" : "/images/project/enclos_v1.png",
-      "filter" : "Training project",
+      "filter" : "Training web projects",
       "type" : "Training project",
       "status" : "Completed",
       "synopsis" : "First website created for the company L'Enclos",
@@ -321,8 +387,8 @@
   "about": {
     "title": "About me",
     "parcours": "Carreer",
-    "parcoursText" : "After a first career in the tourism and leisure industry, I retrained as a web developer to combine my appetite for learning, problem-solving, and well-crafted digital products.",
-    "fullText" : "My initial career, rooted in team management, field operations, and solving real-world challenges, instilled in me a strong results-driven mindset, adaptability, and autonomy. For nearly ten years, I held leadership positions within a group of 80 campsites, eventually managing teams of over 80 people. Driven by a long-standing interest in tech, I decided to pivot into web development and joined Wild Code School, where I earned a diploma as a Web and Mobile Developer. nSince then, I’ve been focusing on modern JavaScript stacks, with a strong preference for React, Next.js, and TailwindCSS on the frontend, and Node.js, Express, and SQL/PostgreSQL on the backend. My goal: to contribute to meaningful and well-designed projects where I can bring both technical precision and product sensitivity to the table.",
+    "parcoursText" : "After several years leading teams and projects in the tourism and leisure sector, I transitioned into web development, driven by a desire to create practical and impactful applications. Graduated from the Wild Code School, I now design modern full-stack applications, with a focus on React, TypeScript, Node.js, PostgreSQL, as well as low-code and automation tools such as Make and Airtable.",
+    "fullText" : "My experience in management and organization has helped me develop rigor, autonomy, and a results-oriented mindset, while maintaining a user- and product-focused approach. I am now looking to apply these skills in a work-study program oriented toward product building, automation, and innovation, combining technical expertise, product vision, and hands-on experience.",
     "lectureTitle": "Reading",
     "bookOne": "Clean code",
     "bookTwo": "The Power of Now",
