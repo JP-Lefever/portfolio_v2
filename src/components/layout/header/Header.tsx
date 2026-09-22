@@ -17,7 +17,8 @@ export default function Header() {
                 <PixelParticle key={i} />
             ))}
         </div>
-        <h1 className={styles.typing}>{header.title} <span className={styles.sub}>{header.subTitle}</span></h1>
+        <h1 className={styles.typing}>{header.title}
+             <span className={styles.sub}>{header.subTitle}</span></h1>
     </section>
 </header>
 
